@@ -3,4 +3,4 @@ Basically Windows XP condensed down into a small ISO and installation size that 
 
 This project's inspiration is from the custom Windows version Tiny10 by [NTDEV](https://twitter.com/NTDEV_).
 
-Fun fact! This somehow this runs with only 24mb of ram and 32mb of vram!
+Fun fact! This somehow runs with only 24mb of ram and 32mb of vram!
