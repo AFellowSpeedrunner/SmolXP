@@ -1,6 +1,6 @@
 # TinyXP
-Basically Windows XP condensed down into a small ISO and installation size that can be ran on old low performance computers (at that point it's just Windows Thin PC or Embedded but XP and even smaller? idk man.) or for throw away OSes to do malware stuff on. 
+TinyXP is a compact version of Windows XP designed for use on low-performance computers or as a disposable operating system for testing purposes. Its small ISO and installation size make it suitable for use on older computers with limited resources. 
 
-This project's inspiration is from the custom Windows version Tiny10 by [NTDEV](https://twitter.com/NTDEV_).
+This project was inspired by the custom Windows version Tiny10 by NTDEV. 
 
-Fun fact! This somehow runs with only 24mb of ram and 32mb of vram!
+Incredibly, TinyXP is able to run with just 24MB of RAM and 32MB of VRAM. 
