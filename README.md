@@ -6,6 +6,14 @@ This project was inspired by the custom Windows version Tiny10 by NTDEV.
 Incredibly, TinyXP is able to run with just 24MB of RAM and 32MB of VRAM.
 
 ## Known Bugs and Issues
+### None so far.
+
+## "Fixed" Issues
 ### Activation
-TinyXP will expire after 30 days which requires reinstall as activation has been removed from TinyXP.
-I am now working to add instructions for a workaround.
+A patch has been rolled out in Release 1.1.
+
+## Fixed Issues
+### None so far.
+
+## What is the difference "Fixed" and Fixed?
+"Fixed" means it might be fixed but maybe it might not been due to lack of testing. Fixed means it's been actually been fixed and tested.
