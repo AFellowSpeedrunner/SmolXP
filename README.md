@@ -8,6 +8,8 @@ Incredibly, TinyXP is able to run with just 24MB of RAM and 32MB of VRAM.
 ## Alright this is crazy.
 Github isn't keeping up with views but its been 21 MINUTES since I uploaded 1.1 and there is 530+ CLONES TODAY WHAT THE HELL??
 
+Edit: Not even 30secs later and it's 592??? THE SERVER IS ABOUT TO GO CRITICAL!
+
 ## Known Bugs and Issues
 ### None so far.
 
