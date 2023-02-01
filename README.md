@@ -5,6 +5,9 @@ This project was inspired by the custom Windows version Tiny10 by NTDEV.
 
 Incredibly, TinyXP is able to run with just 24MB of RAM and 32MB of VRAM.
 
+## Alright this is crazy.
+Github isn't keeping up with views but its been 21 MINUTES since I uploaded 1.1 and there is 530+ CLONES TODAY WHAT THE HELL??
+
 ## Known Bugs and Issues
 ### None so far.
 
