@@ -8,5 +8,5 @@ Incredibly, TinyXP is able to run with just 24MB of RAM and 32MB of VRAM.
 ## Known Bugs and Issues
 ### Activation
 TinyXP will expire after 30 days which requires reinstall as activation has been removed from TinyXP.
-I am now working to reimplement activation and will release it as soon as possible. A key you can use to activate TinyXP is BBY46-G888F-PKWW6-X4CVD-CGF43.
+I am now working to reimplement activation and will release it as soon as possible. A key you can use to activate TinyXP is BBY46-G888F-PKWW6-X4CVD-CGF43. You may need to activate via phone which works with this key.
 This key can be entered in the next TinyXP release.
