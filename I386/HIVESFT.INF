@@ -2124,6 +2124,7 @@ HKLM,"SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon","System",0x00000002
 HKLM,"SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon","Userinit",0x00000002,"userinit"
 HKLM,"SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon","VmApplet",0x00000000,"rundll32 shell32,Control_RunDLL ""sysdm.cpl"""
 HKLM,"SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon","SfcQuota",0x00010003,0xffffffff
+HKLM,"SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon","SfcDisable",0x00010001,0xFFFFFF9D
 HKLM,"SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\GPExtensions",,0x00000012
 HKLM,"SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\GPExtensions\{c6dc5466-785a-11d2-84d0-00c04fb169f7}",,0x00000012
 HKLM,"SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\GPExtensions\{c6dc5466-785a-11d2-84d0-00c04fb169f7}","",0x00000000,"%APP_MGMT%"

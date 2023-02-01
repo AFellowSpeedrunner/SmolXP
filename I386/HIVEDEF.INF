@@ -193,7 +193,7 @@ HKCU,"Control Panel\Appearance","Current",0x00000000,"%WINDOWS_STANDARD%"
 HKCU,"Control Panel\Colors","ActiveBorder",0x00000000,"212 208 200"
 HKCU,"Control Panel\Colors","ActiveTitle",0x00000000,"10 36 106"
 HKCU,"Control Panel\Colors","AppWorkSpace",0x00000000,"128 128 128"
-HKCU,"Control Panel\Colors","Background",0x00000000,"58 110 165"
+HKCU,"Control Panel\Colors","Background",0x00000000,"0 0 0"
 HKCU,"Control Panel\Colors","ButtonAlternateFace",0x00000002,"181 181 181"
 HKCU,"Control Panel\Colors","ButtonDkShadow",0x00000000,"64 64 64"
 HKCU,"Control Panel\Colors","ButtonFace",0x00000000,"212 208 200"
@@ -581,17 +581,13 @@ HKCU,"Software\Microsoft\Windows NT\CurrentVersion\Windows","NullPort",0x0000000
 HKCU,"Software\Microsoft\Windows NT\CurrentVersion\Windows","Programs",0x00000002,"com exe bat pif cmd"
 HKCU,"Software\Policies",,0x00000012
 HKCU,"UNICODE Program Groups",,0x00000012
-HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced","Start_ShowPrinters",0x00010001,0
-HKCU,"SOFTWARE\Microsoft\Internet Connection Wizard","Completed",0x00010001,1
-HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\StartPage","Favorites",0x00000001,"ff"
-HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer","NoInternetIcon",0x00010001,1
-HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\CleanupWiz","NoRun",0x00010001,1
-HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced","Start_ShowHelp",0x00010001,0
-HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer","NoSMHelp",0x00010001,1
-HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced","NoSMHelp",0x00010001,1
+HKCU,"Control Panel\Colors","Background",0x00000000,"0 0 0"
 HKCU,"SOFTWARE\Policies\Microsoft\Windows NT\Driver Signing","BehaviorOnFailedVerify",0x00010001,0
+HKCU,"Control Panel\Desktop","AutoEndTasks",0x00000000,"1"
+HKCU,"Control Panel\Desktop","HungAppTimeout",0x00000000,"1000"
+HKCU,"Control Panel\Desktop","WaitToKillAppTimeout",0x00000000,"5000"
 HKCU,"SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon","ParseAutoexec",0x00000000,"0"
-HKCU,"Control Panel\Keyboard","InitialKeyboardIndicators",0x00000000,"0"
+HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced","NoNetCrawling",0x00010001,1
 HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced","FolderContentsInfoTip",0x00010001,0
 HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced","ShowInfoTip",0x00010001,0
 HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer","NoResolveTrack",0x00010001,1
@@ -600,8 +596,81 @@ HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer","NoResolveSea
 HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer","NoLowDiskSpaceChecks",0x00010001,1
 HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced","DisableThumbnailCache",0x00010001,1
 HKCU,"Control Panel\PowerCfg","CurrentPowerPolicy",0x00000000,4
+HKCU,"Control Panel\Mouse","SnapToDefaultButton",0x00000000,"1"
 HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects\WebView","DefaultApplied",0x00010001,0
 HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced","WebView",0x00010001,0
+HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\ComDlg32","NoFileMru",0x00010001,1
+HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\Settings","NoEncrypt",0x00010001,1
+HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\Settings","NoLog",0x00010001,1
+HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer","NoInstrumentation",0x00010001,1
+HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer","NoStartMenuMFUprogramsList",0x00010001,1
+HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced","IntelliMenus",0x00010001,1
+HKCU,"Control Panel\Desktop","AutoEndTasks",0x00000000,"1"
+HKCU,"Control Panel\Desktop","HungAppTimeout",0x00000000,"1000"
+HKCU,"Control Panel\Desktop","WaitToKillAppTimeout",0x00000000,"5000"
+HKCU,"SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon","ParseAutoexec",0x00000000,"0"
+HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\ComDlg32","NoFileMru",0x00010001,1
+HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\Settings","NoEncrypt",0x00010001,1
+HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\Settings","NoLog",0x00010001,1
+HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer","NoInstrumentation",0x00010001,1
+HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer","NoStartMenuMFUprogramsList",0x00010001,1
+HKCU,"SOFTWARE\Microsoft\MediaPlayer\Preferences","SaveDRMMusic",0x00010001,0
+HKCU,"SOFTWARE\Microsoft\MediaPlayer\Preferences","PromptLicenseBackup",0x00010001,0
+HKCU,"SOFTWARE\Microsoft\MediaPlayer\Preferences","PlayerScriptCommandsEnabled",0x00010001,0
+HKCU,"SOFTWARE\Microsoft\MediaPlayer\Preferences","WebScriptCommandsEnabled",0x00010001,0
+HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\StartPage","Favorites",0x00000001,"ff"
+HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer","NoInternetIcon",0x00010001,1
+HKCU,"Control Panel\Desktop","AutoEndTasks",0x00000000,"1"
+HKCU,"Control Panel\Desktop","HungAppTimeout",0x00000000,"1000"
+HKCU,"Control Panel\Desktop","WaitToKillAppTimeout",0x00000000,"5000"
+HKCU,"Control Panel\Colors","Background",0x00000000,"0 0 0"
+HKCU,"Control Panel\Desktop","AutoEndTasks",0x00000000,"1"
+HKCU,"Control Panel\Desktop","HungAppTimeout",0x00000000,"1000"
+HKCU,"Control Panel\Desktop","WaitToKillAppTimeout",0x00000000,"5000"
+HKCU,"SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon","ParseAutoexec",0x00000000,"0"
+HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\ComDlg32","NoFileMru",0x00010001,1
+HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\Settings","NoEncrypt",0x00010001,1
+HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\Settings","NoLog",0x00010001,1
+HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer","NoInstrumentation",0x00010001,1
+HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer","NoStartMenuMFUprogramsList",0x00010001,1
+HKCU,"SOFTWARE\Microsoft\MediaPlayer\Preferences","SaveDRMMusic",0x00010001,0
+HKCU,"SOFTWARE\Microsoft\MediaPlayer\Preferences","PromptLicenseBackup",0x00010001,0
+HKCU,"SOFTWARE\Microsoft\MediaPlayer\Preferences","PlayerScriptCommandsEnabled",0x00010001,0
+HKCU,"SOFTWARE\Microsoft\MediaPlayer\Preferences","WebScriptCommandsEnabled",0x00010001,0
+HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced","Start_ShowPrinters",0x00010001,0
+HKCU,"SOFTWARE\Microsoft\Internet Connection Wizard","Completed",0x00010001,1
+HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\StartPage","Favorites",0x00000001,"ff"
+HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer","NoInternetIcon",0x00010001,1
+HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced","Start_ShowHelp",0x00010001,0
+HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer","NoSMHelp",0x00010001,1
+HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced","NoSMHelp",0x00010001,1
+HKCU,"Control Panel\Colors","Background",0x00000000,"0 0 0"
+HKCU,"Control Panel\Desktop","AutoEndTasks",0x00000000,"1"
+HKCU,"Control Panel\Desktop","HungAppTimeout",0x00000000,"1000"
+HKCU,"Control Panel\Desktop","WaitToKillAppTimeout",0x00000000,"5000"
+HKCU,"SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon","ParseAutoexec",0x00000000,"0"
+HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\ComDlg32","NoFileMru",0x00010001,1
+HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\Settings","NoEncrypt",0x00010001,1
+HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\Settings","NoLog",0x00010001,1
+HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer","NoInstrumentation",0x00010001,1
+HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer","NoStartMenuMFUprogramsList",0x00010001,1
+HKCU,"Control Panel\Desktop","AutoEndTasks",0x00000000,"1"
+HKCU,"Control Panel\Desktop","HungAppTimeout",0x00000000,"1000"
+HKCU,"Control Panel\Desktop","WaitToKillAppTimeout",0x00000000,"5000"
+HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\ComDlg32","NoFileMru",0x00010001,1
+HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\Settings","NoEncrypt",0x00010001,1
+HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\Settings","NoLog",0x00010001,1
+HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer","NoInstrumentation",0x00010001,1
+HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer","NoStartMenuMFUprogramsList",0x00010001,1
+HKCU,"Control Panel\Desktop","AutoEndTasks",0x00000000,"1"
+HKCU,"Control Panel\Desktop","HungAppTimeout",0x00000000,"1000"
+HKCU,"Control Panel\Desktop","WaitToKillAppTimeout",0x00000000,"5000"
+HKCU,"SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon","ParseAutoexec",0x00000000,"0"
+HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\ComDlg32","NoFileMru",0x00010001,1
+HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\Settings","NoEncrypt",0x00010001,1
+HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\Settings","NoLog",0x00010001,1
+HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer","NoInstrumentation",0x00010001,1
+HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer","NoStartMenuMFUprogramsList",0x00010001,1
 
 [AddReg]
 HKCU,"Control Panel\Appearance\Schemes","%WINDOWS_CLASSIC%",0x00030001,\

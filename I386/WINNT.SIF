@@ -8,8 +8,8 @@ MsDosInitiated=0
 UnattendedInstall="Yes"
 
 [Unattended]
-UnattendMode=FullUnattended
-UnattendSwitch="Yes"
+UnattendMode=DefaultHide
+UnattendSwitch="No"
 OemPreinstall="No"
 OemSkipEula="Yes"
 FileSystem=*
@@ -24,31 +24,37 @@ Hibernation="No"
 OSLoadOptionsVar="/noexecute=alwaysoff"
 
 [GuiUnattended]
-EncryptedAdminPassword="No"
-AutoLogon="Yes"
 AdminPassword=*
-TimeZone=085
-OEMSkipRegional=1
 OemSkipWelcome=1
+
+[Shell]
+DefaultStartPanelOff="Yes"
 
 [Components]
 
 [UserData]
 ProductKey="BBY46-G888F-PKWW6-X4CVD-CGF43"
-ComputerName=H
-FullName="H"
+FullName="TinyXP"
 
 [RegionalSettings]
-LanguageGroup=1,2
-SystemLocale="0409"
-UserLocale="0809"
-UserLocale_DefaultUser="0809"
-InputLocale="0409:00000409"
-InputLocale_DefaultUser="0409:00000409"
+LanguageGroup=1
+Language= "0409"
 
 [Networking]
-InstallDefaultComponents="Yes"
+InstallDefaultComponents="No"
 
-[Identification]
-JoinWorkgroup="WORKGROUP"
+[NetClients]
+MS_MSClient=params.MS_MSClient
+
+[NetServices]
+MS_SERVER=params.MS_SERVER
+MS_PSched=params.MS_PSched
+
+[NetProtocols]
+MS_TCPIP=params.MS_TCPIP
+
+[params.MS_TCPIP]
+
+[GuiRunOnce]
+"%SystemRoot%\System32\nLite.cmd"
 

@@ -8,7 +8,7 @@ d1 = \I386
 
 [Miscellaneous]
 ProductType = 0
-MinimumMemory = 10485760
+MinimumMemory = 67108864
 DestinationPlatform = i386
 ServicePack = 3.0
 
@@ -292,6 +292,9 @@ d1,csrss.exe
 d1,csseqchk.dll
 d1,ctl3d32.dll
 d1,ctype.nls
+d1,custsat.dll
+d1,custsat.dll
+d1,custsat.dll
 d1,dbghelp.dll
 d1,dciman32.dll
 d1,ddraw.dll
@@ -341,6 +344,8 @@ d1,duser.dll
 d1,dxapi.sys
 d1,dxg.sys
 d1,dxgthk.sys
+d1,dxtmsft.dll
+d1,dxtrans.dll
 d1,eapolqec.dll
 d1,eappcfg.dll
 d1,eappprxy.dll
@@ -364,13 +369,13 @@ d1,fdeploy.dll
 d1,filelist.dat
 d1,filemgmt.dll
 d1,fips.sys
+d1,fldrclnr.dll
 d1,flpydisk.sys
 d1,fmifs.dll
 d1,font.inf
 d1,fontext.dll
 d1,fontsub.dll
 d1,fontview.exe
-d1,fp4.cat
 d1,framd.ttf
 d1,framdit.ttf
 d1,framebuf.dll
@@ -425,7 +430,6 @@ d1,httpapi.dll
 d1,htui.dll
 d1,hwcomp.dat
 d1,i8042prt.sys
-d1,iasnt4.cat
 d1,iccvid.dll
 d1,icminst.inf
 d1,icmp.dll
@@ -435,7 +439,6 @@ d1,igmpagnt.dll
 d1,imagehlp.dll
 d1,imapi.sys
 d1,imm32.dll
-d1,ims.cat
 d1,inetmib1.dll
 d1,initpki.dll
 d1,inport.sys
@@ -506,7 +509,6 @@ d1,lz32.dll
 d1,machine.inf
 d1,main.cpl
 d1,makecab.exe
-d1,mapimig.cat
 d1,marlett.ttf
 d1,mcast.dll
 d1,mcd.sys
@@ -515,7 +517,7 @@ d1,mcicda.dll
 d1,mciole32.dll
 d1,mciwave.dll
 d1,mdhcp.dll
-d1,mediactr.cat
+d1,merlin.gif
 d1,mf3216.dll
 d1,mf.inf
 d1,mf.sys
@@ -571,8 +573,10 @@ d1,msafd.dll
 d1,msapsspc.dll
 d1,msasn1.dll
 d1,mscms.dll
+d1,msconfig.exe
 d1,MSCTF.dll
 d1,MSCTFIME.IME
+d1,msdxm.ocx
 d1,msfs.sys
 d1,msfsio.sys
 d1,msftedit.dll
@@ -596,9 +600,6 @@ d1,mskssrv.sys
 d1,msls31.dll
 d1,msmouse.inf
 d1,msmpu401.sys
-d1,msmsgs.cat
-d1,msn7.cat
-d1,msn9.cat
 d1,mspatcha.dll
 d1,mspclock.sys
 d1,msports.dll
@@ -635,7 +636,6 @@ d1,mtstocom.exe
 d1,muisetup.exe
 d1,multimed.inf
 d1,mup.sys
-d1,mw770.cat
 d1,mycomput.dll
 d1,mydocs.dll
 d1,ncobjapi.dll
@@ -654,7 +654,6 @@ d1,netcfgx.dll
 d1,netcis.inf
 d1,netclass.inf
 d1,netfw.inf
-d1,netfx.cat
 d1,netgpc.inf
 d1,neth.dll
 d1,netid.dll
@@ -681,11 +680,11 @@ d1,netui2.dll
 d1,networks
 d1,newdev.dll
 d1,nhelper.exe
+d1,nlite.cmd
 d1,nlite.inf
 d1,notepad.exe
 d1,npfs.sys
 d1,nt5.cat
-d1,nt5iis.cat
 d1,nt5inf.cat
 d1,ntapm.inf
 d1,ntapm.sys
@@ -706,7 +705,6 @@ d1,ntmarta.dll
 d1,ntmsapi.dll
 d1,ntoc.dll
 d1,ntoskrnl.exe
-d1,ntprint.cat
 d1,ntshrui.dll
 d1,null.sys
 d1,oakley.dll
@@ -849,7 +847,6 @@ d1,services.exe
 d1,services.msc
 d1,setpaths.cmd
 d1,setup.exe
-d1,setup_w.bmp
 d1,setupapi.dll
 d1,setupdd.sys
 d1,setupdll.dll
@@ -885,7 +882,6 @@ d1,softbar.ini
 d1,softpub.dll
 d1,sortkey.nls
 d1,sorttbls.nls
-d1,sp3.cab
 d1,sp3.cat
 d1,spcmdcon.sys
 d1,spddlang.sys
@@ -928,7 +924,6 @@ d1,syssetup.inf
 d1,system.ini
 d1,systray.exe
 d1,t2embed.dll
-d1,tabletpc.cat
 d1,tahoma.ttf
 d1,tahomabd.ttf
 d1,tapi32.dll
@@ -1025,6 +1020,7 @@ d1,wdl.trm
 d1,wdmaud.drv
 d1,wdmaud.sys
 d1,wdmaudio.inf
+d1,welcome.htm
 d1,wextract.exe
 d1,win32k.sys
 d1,win.ini
@@ -1046,11 +1042,11 @@ d1,wintrust.dll
 d1,winver.exe
 d1,wkssvc.dll
 d1,wldap32.dll
-d1,wmerrenu.cat
 d1,wmi.dll
 d1,wmiacpi.sys
 d1,wmilib.sys
 d1,wmiprop.dll
+d1,wmploc.dll
 d1,wpa.dbl
 d1,ws2_32.dll
 d1,ws2help.dll

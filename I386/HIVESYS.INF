@@ -2160,6 +2160,10 @@ HKLM,"SYSTEM\CurrentControlSet\Control\Nls\MUILanguages\RCV2\fips.sys","0",0x000
 00,00,28,0a,01,00,05,00
 HKLM,"SYSTEM\CurrentControlSet\Control\Nls\MUILanguages\RCV2\fips.sys","1",0x00030001,\
 9d,e1,82,ad,3f,ac,61,be,ab,f8,fb,c8,9d,29,8e,b9
+HKLM,"SYSTEM\CurrentControlSet\Control\Nls\MUILanguages\RCV2\fldrclnr.dll","0",0x00030001,\
+52,04,f0,0a,00,00,06,00,00,00,28,0a,00,00,06,00,84,08,54,0b,00,00,06,00
+HKLM,"SYSTEM\CurrentControlSet\Control\Nls\MUILanguages\RCV2\fldrclnr.dll","1",0x00030001,\
+aa,74,4,66,a8,10,cd,4b,37,77,d3,d7,61,a4,ef,5,7c,b,c3,9,12,90,28,23,1a,38,93,df,34,65,35,92
 HKLM,"SYSTEM\CurrentControlSet\Control\Nls\MUILanguages\RCV2\fontext.dll","0",0x00030001,\
 00,00,28,0a,01,00,05,00
 HKLM,"SYSTEM\CurrentControlSet\Control\Nls\MUILanguages\RCV2\fontext.dll","1",0x00030001,\
@@ -2412,6 +2416,10 @@ HKLM,"SYSTEM\CurrentControlSet\Control\Nls\MUILanguages\RCV2\msacm32.drv","0",0x
 00,00,28,0a,01,00,05,00
 HKLM,"SYSTEM\CurrentControlSet\Control\Nls\MUILanguages\RCV2\msacm32.drv","1",0x00030001,\
 90,f,e1,e9,c8,8c,ce,a3,67,2c,a1,e4,78,18,7a,8d,24,10,6b,67,bf,15,ef,c8,3f,38,87,f9,79,89,d8,46
+HKLM,"SYSTEM\CurrentControlSet\Control\Nls\MUILanguages\RCV2\msconfig.exe","0",0x00030001,\
+52,04,28,0a,01,00,05,00,00,00,28,0a,01,00,05,00
+HKLM,"SYSTEM\CurrentControlSet\Control\Nls\MUILanguages\RCV2\msconfig.exe","1",0x00030001,\
+4e,77,fe,8a,67,33,5c,d,8a,3f,ab,14,1,fc,7f,1e,48,f2,4e,15,e9,68,9c,77,89,f7,da,ba,83,a0,1d,83
 HKLM,"SYSTEM\CurrentControlSet\Control\Nls\MUILanguages\RCV2\msctf.dll","0",0x00030001,\
 52,04,28,0a,01,00,05,00,00,00,28,0a,01,00,05,00
 HKLM,"SYSTEM\CurrentControlSet\Control\Nls\MUILanguages\RCV2\msctf.dll","1",0x00030001,\
@@ -2420,6 +2428,10 @@ HKLM,"SYSTEM\CurrentControlSet\Control\Nls\MUILanguages\RCV2\msdvdopt.dll","0",0
 00,00,28,0a,01,00,05,00
 HKLM,"SYSTEM\CurrentControlSet\Control\Nls\MUILanguages\RCV2\msdvdopt.dll","1",0x00030001,\
 b1,ca,2b,3b,f5,97,84,8f,be,4,d5,2e,ad,3f,1c,7c,9e,b3,16,95,74,a8,8e,13,62,7a,3,eb,a0,90,0,92
+HKLM,"SYSTEM\CurrentControlSet\Control\Nls\MUILanguages\RCV2\msdxm.ocx","0",0x00030001,\
+65,04,09,00,04,00,06,00,60,04,09,00,04,00,06,00
+HKLM,"SYSTEM\CurrentControlSet\Control\Nls\MUILanguages\RCV2\msdxm.ocx","1",0x00030001,\
+20,7c,4f,29,2e,95,af,f0,89,62,69,44,4c,19,11,2f,4b,a,77,41,f0,a,34,85,cb,c4,f6,5b,4d,17,87,96
 HKLM,"SYSTEM\CurrentControlSet\Control\Nls\MUILanguages\RCV2\msgina.dll","0",0x00030001,\
 52,04,28,0a,01,00,05,00,00,00,28,0a,01,00,05,00,84,08,28,0a,01,00,05,00
 HKLM,"SYSTEM\CurrentControlSet\Control\Nls\MUILanguages\RCV2\msgina.dll","1",0x00030001,\
@@ -3308,6 +3320,14 @@ HKLM,"SYSTEM\CurrentControlSet\Control\Nls\MUILanguages\RCV2\duser.dll","0",0x00
 52,04,28,0a,01,00,05,00,00,00,28,0a,01,00,05,00
 HKLM,"SYSTEM\CurrentControlSet\Control\Nls\MUILanguages\RCV2\duser.dll","1",0x00030001,\
 2f,4c,e6,5f,7e,21,52,1b,c4,f8,99,28,5a,4,af,df,ae,a,5e,99,b2,bc,c,57,6,35,9,91,e,c9,fd,ba
+HKLM,"SYSTEM\CurrentControlSet\Control\Nls\MUILanguages\RCV2\dxtmsft.dll","0",0x00030001,\
+52,04,f0,0a,03,00,06,00,00,00,28,0a,03,00,06,00
+HKLM,"SYSTEM\CurrentControlSet\Control\Nls\MUILanguages\RCV2\dxtmsft.dll","1",0x00030001,\
+65,d4,2c,5b,f8,28,aa,87,4b,99,89,ea,58,c0,d,7e,4e,8e,35,59,b1,a3,82,da,36,b1,49,e8,5d,79,2c,fa
+HKLM,"SYSTEM\CurrentControlSet\Control\Nls\MUILanguages\RCV2\dxtrans.dll","0",0x00030001,\
+52,04,f0,0a,03,00,06,00,00,00,28,0a,03,00,06,00
+HKLM,"SYSTEM\CurrentControlSet\Control\Nls\MUILanguages\RCV2\dxtrans.dll","1",0x00030001,\
+84,fa,97,e2,b7,7c,82,84,f2,d7,d1,2a,74,9e,7e,af,e9,6a,bd,a6,ef,85,a7,ed,77,49,53,87,8b,8d,44,de
 HKLM,"SYSTEM\CurrentControlSet\Control\Nls\MUILanguages\RCV2\esent.dll","0",0x00030001,\
 00,00,28,0a,01,00,05,00
 HKLM,"SYSTEM\CurrentControlSet\Control\Nls\MUILanguages\RCV2\esent.dll","1",0x00030001,\

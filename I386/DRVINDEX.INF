@@ -1,34 +1,15 @@
 
 [Version]
 signature="$Windows NT$"
-CabFiles=SP3,driver
+CabFiles = driver
 
 [driver]
-acpiec.sys
-audstub.sys
-cdaudio.sys
-fsvga.sys
-ftdisk.sys
-inport.sys
-loop.sys
-mouhid.sys
-msfsio.sys
-msmpu401.sys
-msriffwv.sys
-ntapm.sys
-oprghdlr.sys
-pciide.sys
-qv2kux.sys
-shared~1.ini
-smbhc.sys
-streamci.dll
-tsbyuv.dll
-usbd.sys
-
-[SP3]
 acpi.sys
+acpiec.sys
 aec.sys
 atapi.sys
+audstub.sys
+cdaudio.sys
 cdrom.sys
 changer.sys
 disk.sys
@@ -37,6 +18,8 @@ drmk.sys
 drmkaud.sys
 dshowext.ax
 dxg.sys
+fsvga.sys
+ftdisk.sys
 gameenum.sys
 hal.dll
 halaacpi.dll
@@ -53,6 +36,7 @@ hidusb.sys
 http.sys
 i8042prt.sys
 imapi.sys
+inport.sys
 isapnp.sys
 iyuv_32.dll
 kbdclass.sys
@@ -61,43 +45,57 @@ kmixer.sys
 ks.sys
 ksproxy.ax
 ksuser.dll
+loop.sys
 mf.sys
 mouclass.sys
+mouhid.sys
 mrxsmb.sys
+msfsio.sys
 msh263.drv
 mskssrv.sys
+msmpu401.sys
 mspclock.sys
 mspqm.sys
+msriffwv.sys
 mssmbios.sys
 mstee.sys
 msyuv.dll
 ndisuio.sys
+ntapm.sys
 ntkrnlpa.exe
 ntoskrnl.exe
+oprghdlr.sys
 pci.sys
+pciide.sys
 pciidex.sys
 portcls.sys
 processr.sys
 ps_schm.gdl
+qv2kux.sys
 rdpdr.sys
 redbook.sys
 rndismpx.sys
 scsiport.sys
+shared~1.ini
+smbhc.sys
 splitter.sys
 stddtype.gdl
 stdschem.gdl
 stdschmx.gdl
 storprop.dll
 stream.sys
+streamci.dll
 swenum.sys
 swmidi.sys
 sysaudio.sys
 termdd.sys
+tsbyuv.dll
 tunmp.sys
 usb8023x.sys
-usbcamd.sys
 usbcamd2.sys
+usbcamd.sys
 usbccgp.sys
+usbd.sys
 usbehci.sys
 usbhub.sys
 usbohci.sys
@@ -114,7 +112,6 @@ wzcsvc.dll
 
 [Cabs]
 driver=driver.cab
-SP3=SP3.cab
 
 ; Customized by nLite - www.nliteos.com
 
