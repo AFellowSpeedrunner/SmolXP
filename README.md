@@ -5,10 +5,12 @@ This project was inspired by the custom Windows version Tiny10 and Tiny11 by NTD
 
 Incredibly, TinyXP is able to run with just 24MB of RAM and 32MB of VRAM.
 
-## Alright this is crazy.
-Github isn't keeping up with views but its been 21 MINUTES since I uploaded 1.1 and there is 530+ CLONES TODAY WHAT THE HELL??
+## A warning.
+There is a been a bunch of cloning of my repo (around 600) recently which could be by bots trying to reupload my repo and include malware or something of the sorts. 
 
-Edit: Not even 30secs later and it's 592??? THE SERVER IS ABOUT TO GO CRITICAL!
+**When looking out for my real repo located here: https://github.com/AFellowSpeedrunner/TinyXP make sure that Release 1.1's commit signature is 4e2bb25 or if they even have a release.** 
+
+If they don't have a release or a signature being 4e2bb25 then please quickly look into the account if it's an actual person running the account and not a reuploader bot. If it is a bot, report it and come to this repo instead.
 
 ## Known Bugs and Issues
 ### None so far.
