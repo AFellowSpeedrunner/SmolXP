@@ -1,3 +1,6 @@
+# Notice
+Development has been halted for a while and I'm just busy with other things at the moment.
+
 # TinyXP
 TinyXP is a compact version of Windows XP designed for use on low-performance computers or as a disposable operating system for testing purposes. Its small ISO and installation size make it suitable for use on older computers with limited resources. 
 
