@@ -1,6 +1,3 @@
-# Notice
-Development has been halted for a while and I'm just busy with other things at the moment.
-
 # TinyXP
 TinyXP is a compact version of Windows XP designed for use on low-performance computers or as a disposable operating system for testing purposes. Its small ISO and installation size make it suitable for use on older computers with limited resources. 
 
@@ -16,7 +13,8 @@ There is a been a bunch of cloning of my repo (around 600) recently which could 
 If they don't have a release or a signature being 4e2bb25 then please quickly look into the account if it's an actual person running the account and not a reuploader bot. If it is a bot, report it and come to this repo instead.
 
 ## Known Bugs and Issues
-### None so far.
+### Automatic Drive Wiping during Setup
+This issue is caused due to "Fully Unattended" being selected during ISO creation. This will be resolved soon.
 
 ## "Fixed" Issues
 ### Activation
