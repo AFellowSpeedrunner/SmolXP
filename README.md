@@ -13,15 +13,24 @@ There is a been a bunch of cloning of my repo (around 600) recently which could 
 If they don't have a release or a signature being 4e2bb25 then please quickly look into the account if it's an actual person running the account and not a reuploader bot. If it is a bot, report it and come to this repo instead.
 
 ## Known Bugs and Issues
-### Automatic Drive Wiping during Setup
-This issue is caused due to "Fully Unattended" being selected during ISO creation. This will be resolved soon.
+### WPADISABLE.bat
+It doesn't run automatically. Just run from cd root.
 
 ## "Fixed" Issues
 ### Activation
 A patch has been rolled out in Release 1.1.
 
 ## Fixed Issues
-### None so far.
+### Automatic Drive Wiping during TextMode Setup
+A patch has been rolled out in Release 1.2.
+
+### Product Key error during Graphical Setup
+A patch has been rolled out in Release 1.2.
+
+### Random signon bug
+A patch has been rolled out in Release 1.2.
+
+All bugs above were fixed by @yum13241. Huge thanks! All credits for these patches go to @yum13241.
 
 ## What is the difference "Fixed" and Fixed?
 "Fixed" means it might be fixed but maybe it might not been due to lack of testing. Fixed means it's been actually been fixed and tested.
