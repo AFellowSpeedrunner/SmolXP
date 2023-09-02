@@ -30,7 +30,7 @@ A patch has been rolled out in Release 1.2.
 ### Random signon bug
 A patch has been rolled out in Release 1.2.
 
-All bugs above were fixed by @yum13241. Huge thanks! All credits for these patches go to @yum13241.
+All bugs above were fixed by [@yum13241](https://github.com/yum13241). Huge thanks! All credits for these patches go to [@yum13241](https://github.com/yum13241).
 
 ## What is the difference "Fixed" and Fixed?
 "Fixed" means it might be fixed but maybe it might not been due to lack of testing. Fixed means it's been actually been fixed and tested.
