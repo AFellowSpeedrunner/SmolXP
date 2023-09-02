@@ -8,7 +8,7 @@ Incredibly, TinyXP is able to run with just 24MB of RAM and 32MB of VRAM.
 ## A warning.
 There is a been a bunch of cloning of my repo (around 600) recently which could be by bots trying to reupload my repo and include malware or something of the sorts. 
 
-**When looking out for my real repo located here: https://github.com/AFellowSpeedrunner/TinyXP make sure that Release 1.1's commit signature is 4e2bb25 or if they even have a release.** 
+**When looking out for my real repo located here: https://github.com/AFellowSpeedrunner/TinyXP make sure that Release 1.2's commit signature is 8262fdf or if they even have a release.** 
 
 If they don't have a release or a signature being 4e2bb25 then please quickly look into the account if it's an actual person running the account and not a reuploader bot. If it is a bot, report it and come to this repo instead.
 
