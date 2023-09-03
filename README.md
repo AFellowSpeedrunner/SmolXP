@@ -9,6 +9,8 @@ With VMware Tools installed with no pagefile and compression enabled, it can tak
 
 On a VMware virtual machine, it can boot in 16 seconds with 2GB of RAM, 8GB of VRAM, and on an M.2 SSD.
 
+Installation doesn't take long. I didn't time that but if I had to say depending on what specs your using it could take 3-7 minutes. Much faster than normal XP.
+
 ## Hardware Requirements
 Literally could probably run on a lemon. Not kidding, it probably could.
 
