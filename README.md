@@ -5,7 +5,7 @@ This project was inspired by the custom Windows version Tiny10 and Tiny11 by NTD
 
 Incredibly, TinyXP is able to run with just 24MB of RAM and 32MB of VRAM.
 
-With VMware Tools installed with no pagefile and compression enabled, it can take up only 270-275MB of space on a 5GB storage medium.
+With VMware Tools installed with no pagefile and compression enabled, it can take up only 100-300MB of space on a 5GB storage medium.
 
 On a VMware virtual machine, it can boot in 16 seconds with 2GB of RAM, 8GB of VRAM, and on an M.2 SSD.
 
@@ -22,14 +22,15 @@ There is a been a bunch of cloning of my repo (around 600) a while ago which cou
 If they don't have a release or a signature being 8262fdf then please quickly look into the account if it's an actual person running the account and not a reuploader bot. If it is a bot, report it and come to this repo instead.
 
 ## Known Bugs and Issues
-### WPADISABLE.bat
-It doesn't run automatically. Just run from cd root.
 
 ## "Fixed" Issues
 ### Activation
 A patch has been rolled out in Release 1.1.
 
 ## Fixed Issues
+### WPADISABLE.bat
+A patch has been rolled out in Release 1.3.
+
 ### Automatic Drive Wiping during TextMode Setup
 A patch has been rolled out in Release 1.2.
 
