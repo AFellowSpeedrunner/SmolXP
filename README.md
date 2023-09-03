@@ -11,6 +11,10 @@ On a VMware virtual machine, it can boot in 16 seconds with 2GB of RAM, 8GB of V
 
 Installation doesn't take long. I didn't time that but if I had to say depending on what specs your using it could take 3-7 minutes. Much faster than normal XP.
 
+## Virtual Machine Software that can install and run TinyXP
+VMware Workstation 17
+QEMU
+
 ## Hardware Requirements
 Literally could probably run on a lemon. Not kidding, it probably could.
 
