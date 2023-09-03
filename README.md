@@ -17,9 +17,9 @@ Literally could probably run on a lemon. Not kidding, it probably could.
 ## A warning.
 There is a been a bunch of cloning of my repo (around 600) a while ago which could be by bots trying to reupload my repo and include malware or something of the sorts. 
 
-**When looking out for my real repo located here: https://github.com/AFellowSpeedrunner/TinyXP make sure that Release 1.2's commit signature is 8262fdf or if they even have a release.** 
+**When looking out for my real repo located here: https://github.com/AFellowSpeedrunner/TinyXP make sure that Release 1.3's commit signature is 95e5e25 or if they even have a release.** 
 
-If they don't have a release or a signature being 8262fdf then please quickly look into the account if it's an actual person running the account and not a reuploader bot. If it is a bot, report it and come to this repo instead.
+If they don't have a release or a signature being 95e5e25 then please quickly look into the account if it's an actual person running the account and not a reuploader bot. If it is a bot, report it and come to this repo instead.
 
 ## Known Bugs and Issues
 
