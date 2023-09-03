@@ -5,12 +5,16 @@ This project was inspired by the custom Windows version Tiny10 and Tiny11 by NTD
 
 Incredibly, TinyXP is able to run with just 24MB of RAM and 32MB of VRAM.
 
+With VMware Tools installed with no pagefile and compression enabled, it can reach 270-275MB of space on a 5GB storage medium.
+
+On a VMware virtual machine, it can boot in 16 seconds with 2GB of RAM, 8GB of VRAM, and on an M.2 SSD.
+
 ## A warning.
-There is a been a bunch of cloning of my repo (around 600) recently which could be by bots trying to reupload my repo and include malware or something of the sorts. 
+There is a been a bunch of cloning of my repo (around 600) a while ago which could be by bots trying to reupload my repo and include malware or something of the sorts. 
 
 **When looking out for my real repo located here: https://github.com/AFellowSpeedrunner/TinyXP make sure that Release 1.2's commit signature is 8262fdf or if they even have a release.** 
 
-If they don't have a release or a signature being 4e2bb25 then please quickly look into the account if it's an actual person running the account and not a reuploader bot. If it is a bot, report it and come to this repo instead.
+If they don't have a release or a signature being 8262fdf then please quickly look into the account if it's an actual person running the account and not a reuploader bot. If it is a bot, report it and come to this repo instead.
 
 ## Known Bugs and Issues
 ### WPADISABLE.bat
