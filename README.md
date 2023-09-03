@@ -9,6 +9,9 @@ With VMware Tools installed with no pagefile and compression enabled, it can rea
 
 On a VMware virtual machine, it can boot in 16 seconds with 2GB of RAM, 8GB of VRAM, and on an M.2 SSD.
 
+## Hardware Requirements
+Literally could probably run on a lemon. Not kidding, it probably could.
+
 ## A warning.
 There is a been a bunch of cloning of my repo (around 600) a while ago which could be by bots trying to reupload my repo and include malware or something of the sorts. 
 
