@@ -5,7 +5,7 @@ This project was inspired by the custom Windows version Tiny10 and Tiny11 by NTD
 
 Incredibly, TinyXP is able to run with just 24MB of RAM and 32MB of VRAM.
 
-With VMware Tools installed with no pagefile and compression enabled, it can reach 270-275MB of space on a 5GB storage medium.
+With VMware Tools installed with no pagefile and compression enabled, it can take up only 270-275MB of space on a 5GB storage medium.
 
 On a VMware virtual machine, it can boot in 16 seconds with 2GB of RAM, 8GB of VRAM, and on an M.2 SSD.
 
