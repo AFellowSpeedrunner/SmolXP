@@ -1,15 +1,18 @@
-# TinyXP
-TinyXP is a compact version of Windows XP designed for use on low-performance computers or as a disposable operating system for testing purposes. Its small ISO and installation size make it suitable for use on older computers with limited resources. 
+# SmolXP
+SmolXP is a compact version of Windows XP designed for use on low-performance computers or as a disposable operating system for testing purposes. Its small ISO and installation size make it suitable for use on older computers with limited resources. 
 
 This project was inspired by the custom Windows version Tiny10 and Tiny11 by NTDEV. 
 
-Incredibly, TinyXP is able to run with just 24MB of RAM and 32MB of VRAM.
+Incredibly, SmolXP is able to run with just 24MB of RAM and 32MB of VRAM.
 
 With VMware Tools installed with no pagefile and compression enabled, it can take up only 100-300MB of space on a 5GB storage medium.
 
 On a VMware virtual machine, it can boot in 16 seconds with 2GB of RAM, 8GB of VRAM, and on an M.2 SSD.
 
 Installation doesn't take long. I didn't time that but if I had to say depending on what specs your using it could take 3-7 minutes. Much faster than normal XP.
+
+## So what happened to the previous name "TinyXP"?
+Turns out it was already used in 2008 by someone else. I will not change the older versions to include SmolXP. That would take too much time. This project now goes by "SmolXP" as suggested again by [@yum13241](https://github.com/yum13241).
 
 ## Virtual Machine Software that can install and run TinyXP
 VMware Workstation 17
