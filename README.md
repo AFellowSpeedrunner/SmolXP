@@ -5,18 +5,17 @@ This project was inspired by the custom Windows version Tiny10 and Tiny11 by NTD
 
 Incredibly, SmolXP is able to run with just 24MB of RAM and 32MB of VRAM.
 
-With VMware Tools installed with no pagefile and compression enabled, it can take up only 100-300MB of space on a 5GB storage medium.
+With VMware Tools installed with no pagefile and compression enabled, it can take up only 100-400MB of space on a 5GB storage medium.
 
-On a VMware virtual machine, it can boot in 16 seconds with 2GB of RAM, 8GB of VRAM, and on an M.2 SSD.
+Installation doesn't take long. I didn't time that but if I had to say depending on what specs your using it could take 3-10 minutes. Much faster than normal XP.
 
-Installation doesn't take long. I didn't time that but if I had to say depending on what specs your using it could take 3-7 minutes. Much faster than normal XP.
+![image](https://github.com/AFellowSpeedrunner/SmolXP/assets/73440604/bed5c63e-f998-444c-ae71-b810e71caadd)
 
 ## So what happened to the previous name "TinyXP"?
 Turns out it was already used in 2008 by someone else. I will not change the older versions to include SmolXP. That would take too much time. This project now goes by "SmolXP" as suggested again by [@yum13241](https://github.com/yum13241).
 
 ## Virtual Machine Software that can install and run SmolXP
 VMware Workstation 17
-QEMU
 
 ## Hardware Requirements
 Literally could probably run on a lemon. Not kidding, it probably could.
