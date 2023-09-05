@@ -11,7 +11,7 @@ On a VMware virtual machine, it can boot in 16 seconds with 2GB of RAM, 8GB of V
 
 Installation doesn't take long. I didn't time that but if I had to say depending on what specs your using it could take 3-7 minutes. Much faster than normal XP.
 
-## So what happened to the previous name "SmolXP"?
+## So what happened to the previous name "TinyXP"?
 Turns out it was already used in 2008 by someone else. I will not change the older versions to include SmolXP. That would take too much time. This project now goes by "SmolXP" as suggested again by [@yum13241](https://github.com/yum13241).
 
 ## Virtual Machine Software that can install and run SmolXP
