@@ -14,19 +14,18 @@ SmolXP 2.0's x86 and x64 version side by side.
 ![image](https://github.com/AFellowSpeedrunner/SmolXP/assets/73440604/bed5c63e-f998-444c-ae71-b810e71caadd)
 
 ## So what happened to the previous name "TinyXP"?
-Turns out it was already used in 2008 by someone else. I will not change the older versions to include SmolXP. That would take too much time. This project now goes by "SmolXP" as suggested again by [@yum13241](https://github.com/yum13241).
+Turns out it was already used in 2008 by someone else. I will not change the older versions to include the new name. That would take too much time. This project now goes by "SmolXP" as suggested again by [@yum13241](https://github.com/yum13241).
 
 ## Virtual Machine Software that can install and run SmolXP
 VMware Workstation 17
+VirtualBox (Guest Editions doesn't work right in x64.)
 
-## Hardware Requirements
-Literally could probably run on a lemon. Not kidding, it probably could.
+## Known Fixable Issues
+### Nothing so far.
 
-## Known Bugs and Issues
-
-## "Fixed" Issues
-### Activation
-A patch has been rolled out in Release 1.1.
+## Known Unfixable Issues
+### VBox Guest Editions don't work correctly with x64.
+This is seems to be more an issue with Windows XP x64 itself, and less to do with SmolXP x64. If it works fine in SmolXP x86 then why doesn't it work in x64? It can't of been something that nLite did, the settings would of been the exact same. Therefore, I think it's just an issue with the code for XP x64. This is unfixable for the time being and probably will never be fixed. Go use VMware or QEMU for full support in x64, use VirtualBox if you want but be aware you will not have proper support.
 
 ## Fixed Issues
 ### WPADISABLE.bat
@@ -41,7 +40,7 @@ A patch has been rolled out in Release 1.2.
 ### Random signon bug
 A patch has been rolled out in Release 1.2.
 
-All bugs above were fixed by [@yum13241](https://github.com/yum13241). Huge thanks! All credits for these patches go to [@yum13241](https://github.com/yum13241).
+### Activation
+A patch has been rolled out in Release 1.1.
 
-## What is the difference "Fixed" and Fixed?
-"Fixed" means it might be fixed but maybe it might not been due to lack of testing. Fixed means it's been actually been fixed and tested.
+All bugs above were fixed by [@yum13241](https://github.com/yum13241). Huge thanks! All credits for these patches go to [@yum13241](https://github.com/yum13241).
