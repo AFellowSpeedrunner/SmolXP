@@ -9,6 +9,8 @@ With VMware Tools installed with no pagefile and compression enabled, it can tak
 
 Installation doesn't take long. I didn't time that but if I had to say depending on what specs your using it could take 3-10 minutes. Much faster than normal XP.
 
+
+SmolXP 2.0's x86 and x64 version side by side.
 ![image](https://github.com/AFellowSpeedrunner/SmolXP/assets/73440604/bed5c63e-f998-444c-ae71-b810e71caadd)
 
 ## So what happened to the previous name "TinyXP"?
