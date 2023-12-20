@@ -1,0 +1,889 @@
+Microsoft Windows XP x64 Edition with 
+Service Pack 2 
+
+END-USER LICENSE AGREEMENT
+
+IMPORTANT-READ CAREFULLY: This End-User 
+License Agreement ("EULA") is a legal 
+agreement between you (either an individual 
+or a single entity) and Microsoft
+
+Corporation for the Microsoft software 
+product identified above, which includes 
+computer software and may include associated 
+media, printed materials, "online" or 
+electronic documentation, and Internet-based 
+services ("Product"). An amendment or
+
+addendum to this EULA may accompany the 
+Product. YOU AGREE TO BE BOUND BY THE TERMS 
+OF THIS EULA BY INSTALLING, COPYING, OR 
+OTHERWISE USING THE PRODUCT. IF YOU DO NOT 
+AGREE, DO NOT INSTALL OR USE THE PRODUCT; YOU 
+MAY RETURN IT TO YOUR PLACE OF PURCHASE FOR A 
+FULL REFUND.
+
+ 1. GRANT OF LICENSE. Microsoft grants you 
+the following rights provided that you comply 
+with all terms and conditions of this EULA:
+
+ * Installation and use. You may install, 
+use, access, display and run one copy of the 
+Product on a single computer, such as a 
+workstation, terminal or other device 
+("Workstation Computer"). The Product may not 
+be used by more than two (2) processors at 
+any one time on any single Workstation 
+Computer. You may permit a maximum of ten 
+(10) computers or other electronic devices 
+(each a "Device") to connect to the 
+Workstation Computer to utilize the services 
+of the Product solely for File and Print 
+services, Internet Information Services, and 
+remote access (including connection sharing 
+and telephony services). The ten connection 
+maximum includes any indirect connections 
+made through "multiplexing" or other software 
+or hardware which pools or aggregates 
+connections. Except as otherwise permitted by 
+the Remote Desktop feature described below, 
+you may not use the Product to permit any 
+Device to use, access, display or run other 
+executable software residing on the 
+Workstation Computer, nor may you permit any 
+Device to use, access, display, or run the 
+Product or Product's
+
+user interface, unless the Device has a 
+separate license for the Product. 
+
+ * Mandatory Activation. The license rights 
+granted under this EULA are limited to the 
+first thirty (30) days after you first 
+install the Product unless you supply 
+information required to activate your 
+licensed copy in the manner described during 
+the setup sequence of the Product. You can 
+activate the Product through the use of the 
+Internet or telephone; toll charges may apply.
+You may also need to reactivate the Product 
+if you modify your computer hardware or alter 
+the Product. There are technological measures 
+in this Product that are designed to prevent 
+unlicensed use of the Product. Microsoft will 
+use those measures to confirm you have a 
+legally licensed copy of the Product. If you 
+are not using a licensed copy of the Product, 
+you are not allowed to install the Product or 
+future Product updates. Microsoft will not 
+collect any personally identifiable 
+information from your Workstation Computer 
+during this process. 
+
+ * Storage/Network Use. You may also store 
+or install a copy of the Product on a storage 
+device, such as a network server, used only 
+to install or run the Product on your other 
+Workstation Computers over an internal 
+network; however, you must acquire and 
+dedicate an additional license for each 
+separate Workstation Computer on or from 
+which the Product is installed, used, 
+accessed, displayed or run. A license for the 
+Product may not be shared or used 
+concurrently on different Workstation 
+Computers.
+
+ * Remote Desktop/Remote 
+Assistance/NetMeeting. The Product contains 
+Remote Desktop, Remote Assistance, and 
+NetMeeting technologies that enable the 
+Product or applications installed on the 
+Workstation Computer (sometimes referred to 
+as a host device) to be accessed remotely 
+from other Devices. You may use the Product's 
+Remote Desktop feature (or other software 
+which provides similar functionality for a 
+similar purpose) to access a Workstation 
+Computer Session from any Device provided you 
+acquire a separate Product license for that 
+Device. As an exception to this rule, the 
+person who is the single primary user of the 
+Workstation Computer may access a Workstation 
+Computer Session from any Device without 
+acquiring an additional Product license for 
+that Device. When you are using Remote 
+Assistance or NetMeeting (or other software 
+which provides similar functionality for a 
+similar purpose) you may share a Session with 
+other users without any limit on the number 
+of Device connections and without acquiring 
+additional licenses for the Product. For 
+Microsoft and non-Microsoft applications, you 
+should consult the license agreement 
+accompanying the applicable software or 
+contact the applicable licensor to determine 
+whether use of the software with Remote 
+Desktop, Remote Assistance, or NetMeeting is 
+permitted without an additional license. 
+
+ * Storage/Network Use. You may also store 
+or install a copy of the Product on a storage 
+device, such as a network server, used only 
+to install or run the Product on your other 
+Workstation Computers over an internal 
+network; however, you must acquire and 
+dedicate an additional license for each 
+separate Workstation Computer on or from 
+which the Product is installed, used, 
+accessed, displayed or run. Except as 
+otherwise permitted by the NetMeeting and 
+Remote Assistance features described above, a 
+license for the Product may not be shared or 
+used concurrently on different Workstation 
+Computers. 
+
+ * Reservation of Rights. Microsoft reserves 
+all rights not expressly granted to you in 
+this EULA.
+
+ 2. UPGRADES. To use a Product identified as 
+an upgrade, you must first be licensed for 
+the product identified by Microsoft as 
+eligible for the upgrade. After upgrading, 
+you may no longer use the product that formed 
+the basis for your upgrade eligibility.
+
+3. AUTOMATIC INTERNET-BASED SERVICES. The 
+Product features described below are enabled 
+by default to connect via the Internet to 
+Microsoft computer systems automatically, 
+without separate notice to you. You consent 
+to the operation of these features, unless 
+you choose to switch them off or not use them.
+Microsoft does not obtain personal 
+information through any of these features. 
+For more information about these features, 
+please see your Product documentation, the 
+Microsoft online support site, or the privacy 
+statement at <http://go.microsoft.com/fwlink/?
+LinkId=25243>.
+
+ * Windows Update Features. If you connect 
+hardware to your Workstation Computer, it may 
+not have the drivers needed to communicate 
+with that hardware. The Product's update 
+feature can obtain the correct drivers from 
+Microsoft and install them on your device. 
+You can switch this update feature off.
+
+ * Web Content Features. Under the Product's 
+default configuration, if you are connected 
+to the Internet, several features of the 
+Product are enabled by default to retrieve 
+content from Microsoft computer systems and 
+display it to you. When you activate such a 
+feature, it uses standard Internet protocols, 
+which transmit the type of operating system, 
+browser and language code of your Workstation 
+Computer to the Microsoft computer system so 
+that the content can be viewed properly from 
+your Workstation Computer. These features 
+only operate when you activate them, and you 
+may choose to switch them off or not use them.
+Examples of these features include Windows 
+Catalog, Search Assistant, and the Headlines 
+and Search features of Help and Support 
+Center.
+
+ * Digital Certificates. The Product uses 
+digital certificates based on the x.509 
+standard. These digital certificates confirm 
+the identity of Internet users sending x.509 
+standard encrypted information. The Product 
+retrieves certificates and updates 
+certificate revocation lists. These security 
+features operate only when you use the 
+Internet.
+
+ * Auto Root Update. The Auto Root Update 
+feature updates the list of trusted 
+certificate authorities. You can switch off 
+the Auto Root Update feature.
+
+ * Windows Media Player. Some features of 
+Windows Media Player automatically contact 
+Microsoft computer systems if you use Windows 
+Media Player or specific features of it: 
+features that (A) check for new codecs if 
+your Workstation Computer does not have the 
+correct ones for content you attempt to play 
+(this feature may be switched off), and (B) 
+check for new versions of Windows Media 
+Player (this feature will operate only when 
+you are using Windows Media Player).
+
+ * Windows Media Digital Rights Management. 
+Content providers are using the digital 
+rights management technology for Windows 
+Media contained in this Product ('WM-DRM') to 
+protect the integrity of their content 
+("Secure Content") so that their intellectual 
+property, including copyright, in such 
+content is not misappropriated. Portions of 
+this Product and third party applications 
+such as media players use WM-DRM to play 
+Secure Content ('WM-DRM Product'). If the WM-
+DRM Product's security has been compromised, 
+owners of Secure Content ("Secure Content 
+Owners") may request that Microsoft revoke 
+the WM-DRM Product's right to copy, display 
+and/or play Secure Content. Revocation does 
+not alter the WM-DRM Product's ability to 
+play unprotected content. A list of revoked 
+WM-DRM Product is sent to your Workstation 
+Computer whenever you download a license for 
+Secure Content from the Internet. Microsoft 
+may, in conjunction with such license, also 
+download revocation lists onto your 
+Workstation Computer on behalf of Secure 
+Content Owners. Secure Content Owners may 
+also require you to upgrade some of the WM-
+DRM components in this Product ('WM-DRM 
+Upgrades') before accessing their content. 
+When you attempt to play such content, WM-DRM 
+Product built by Microsoft will notify you 
+that a WM-DRM Upgrade is required and then 
+ask for your consent before the WM-DRM 
+Upgrade is downloaded. WM-DRM software built 
+by third parties may do the same. If you 
+decline the upgrade, you will not be able to 
+access content that requires the WM-DRM 
+Upgrade; however, you will still be able to 
+access unprotected content and Secure Content 
+that does not require the upgrade. WM-DRM 
+features that access the Internet, such as 
+acquiring new licenses and/or performing a 
+required WM-DRM Upgrade, can be switched off. 
+When these features are switched off, you 
+will still be able to play Secure Content if 
+you have a valid license for such content 
+already stored on your Workstation Computer.
+
+ * Consent to Use of Data. You agree that 
+Microsoft and its affiliates may collect and 
+use technical information gathered in any 
+manner as part of the product support 
+services provided to you, if any, related to 
+the Product. Microsoft may use this 
+information solely to improve our products or 
+to provide customized services or 
+technologies to you. Microsoft may disclose 
+this information to others, but not in a form 
+that personally identifies you. 
+
+ * Internet Gaming/Update Features. If you 
+choose to utilize the Internet gaming or 
+update features within the Product, it is 
+necessary to use certain computer system, 
+hardware, and software information to 
+implement the features. By using these 
+features, you explicitly authorize Microsoft 
+or its designated agent to access and utilize 
+the necessary information for Internet gaming 
+and/or updating purposes. Microsoft may use 
+this information solely to improve our 
+products or to provide customized services or 
+technologies to you. Microsoft may disclose 
+this information to others, but not in a form 
+that personally identifies you. 
+
+form that personally identifies you.
+
+4. TRANSFER-Internal. You may move the 
+Product to a different Workstation Computer. 
+After the transfer, you must completely 
+remove the Product from the former 
+Workstation Computer. Transfer to Third Party.
+The initial user of the Product may make a 
+one-time transfer of the Product to another 
+end user. The transfer has to include all 
+component parts, media, printed materials, 
+this EULA, and if applicable, the Certificate 
+of Authenticity. The transfer may not be an 
+indirect transfer, such as a consignment. 
+Prior to the transfer, the end user receiving 
+the transferred Product must agree to all the 
+EULA terms. No Rental. You may not rent, 
+lease, lend or provide
+
+commercial hosting services to third parties 
+with the Product. 
+
+5. LIMITATION ON REVERSE ENGINEERING, 
+DECOMPILATION, AND DISASSEMBLY. You may not 
+reverse engineer, decompile, or disassemble 
+the Product, except and only to the extent 
+that it is expressly permitted by applicable 
+law notwithstanding this limitation. 
+
+6. TERMINATION. Without prejudice to any 
+other rights, Microsoft may cancel this EULA 
+if you do not abide by the terms and 
+conditions of this EULA, in which case you 
+must destroy all copies of the Product and 
+all of its component parts.
+
+ 7. NOT FOR RESALE SOFTWARE. Product 
+identified as "Not for Resale" or "NFR," may 
+not be resold, transferred or used for any 
+purpose other than demonstration, test or 
+evaluation.
+
+8. ACADEMIC EDITION SOFTWARE. To use Product 
+identified as "Academic Edition" or "AE," you 
+must be a "Qualified Educational User." For 
+qualification-
+
+related questions, please contact the 
+Microsoft Sales Information Center/One 
+Microsoft Way/Redmond, WA 98052-6399 or the 
+Microsoft subsidiary serving your country.
+
+9. NOTICES REGARDING THE MPEG-4 VISUAL 
+STANDARD. The Product includes MPEG-4 visual 
+decoding technology. This technology is a 
+format for data compression of video 
+information. For this technology, MPEG LA, L.
+L.C. requires this notice: 
+
+USE OF THIS PRODUCT IN ANY MANNER THAT 
+COMPLIES WITH THE MPEG-4 VISUAL STANDARD IS 
+PROHIBITED, EXCEPT FOR USE DIRECTLY RELATED 
+TO (A) DATA OR INFORMATION (i) GENERATED BY 
+AND OBTAINED WITHOUT CHARGE FROM A CONSUMER 
+NOT THEREBY ENGAGED IN A BUSINESS ENTERPRISE, 
+AND (ii) FOR PERSONAL USE ONLY; AND (B) OTHER 
+USES SPECIFICALLY AND SEPARATELY LICENSED BY 
+MPEG LA, L.L.C. 
+
+If you have questions regarding this notice, 
+please contact MPEG LA, L.L.C., 250 Steele 
+Street, Suite 300, Denver, Colorado 80206; 
+Telephone 303 331.1880; FAX 303 331.1879; 
+<http://www.mpegla.com <file:///\\www.mpegla.
+com>>.
+
+
+
+10. EXPORT RESTRICTIONS. You acknowledge 
+that the Product is of U.S. origin and 
+subject to U.S. export jurisdiction. You 
+agree to comply with all applicable 
+international and national laws that apply to 
+the Product, including the U.S. Export 
+Administration Regulations, as well as end-
+user, end-use, and destination restrictions 
+issued by U.S. and other governments. For 
+additional information see http://www.
+microsoft.com/exporting/>.
+
+11. NOTICE REGARDING SECURITY. To help 
+protect against breaches of security and 
+malicious software, periodically back up your 
+data and system information, use security 
+features such as firewalls, and install and 
+use security updates.
+
+12. LIMITED WARRANTY FOR PRODUCT ACQUIRED IN 
+THE US AND CANADA. Microsoft warrants that 
+the Product will perform substantially in 
+accordance with the accompanying materials 
+for a period of ninety days from the date of 
+receipt. If an implied warranty or condition 
+is created by your state/jurisdiction and 
+federal or state/provincial law prohibits 
+disclaimer of it, you also have an implied 
+warranty or condition, BUT ONLY AS TO DEFECTS 
+DISCOVERED DURING THE PERIOD
+
+OF THIS LIMITED WARRANTY (NINETY DAYS). AS 
+TO ANY DEFECTS DISCOVERED AFTER THE NINETY 
+(90) DAY PERIOD, THERE IS NO
+
+WARRANTY OR CONDITION OF ANY KIND. Some 
+states/jurisdictions do not allow limitations 
+on how long an implied warranty or condition 
+lasts, so the above
+
+limitation may not apply to you. Any 
+supplements or updates to the Product, 
+including without limitation, any (if any) 
+service packs or hot fixes provided to you 
+after the expiration of the ninety day 
+Limited Warranty period are not covered by 
+any warranty or condition, express, implied 
+or statutory.
+
+LIMITATION ON REMEDIES; NO CONSEQUENTIAL OR 
+OTHER DAMAGES. Your exclusive remedy for any 
+breach of this Limited Warranty is as set 
+forth below. Except for any refund elected by 
+Microsoft, YOU ARE NOT ENTITLED TO ANY 
+DAMAGES, INCLUDING BUT NOT LIMITED TO 
+CONSEQUENTIAL DAMAGES, if the
+
+Product does not meet Microsoft's Limited 
+Warranty, and, to the maximum extent allowed 
+by applicable law, even if any remedy fails 
+of its essential purpose. The terms of 
+Section 13 below ("Exclusion of Incidental, 
+Consequential and Certain Other Damages") are 
+also incorporated into this Limited Warranty. 
+Some states/jurisdictions do not allow the 
+exclusion or limitation of incidental or 
+consequential damages, so the above 
+limitation or exclusion may not apply to you. 
+This Limited Warranty gives you
+
+specific legal rights. You may have others 
+which vary from state/jurisdiction to 
+state/jurisdiction. YOUR EXCLUSIVE REMEDY. 
+Microsoft's and its suppliers' entire 
+liability and your exclusive remedy shall be, 
+at Microsoft's option from time to time 
+exercised subject to applicable law, (a) 
+return of the price paid (if any) for the 
+Product, or (b) repair or replacement of the 
+Product, that does not meet this Limited 
+Warranty and that is returned to Microsoft 
+with a copy of your receipt. You will receive 
+the remedy
+
+elected by Microsoft without charge, except 
+that you are responsible for any expenses you 
+may incur (e.g. cost of shipping the Product 
+to Microsoft). This Limited Warranty
+
+is void if failure of the Product has 
+resulted from accident, abuse, misapplication,
+abnormal use or a virus. Any replacement 
+Product will be warranted for the remainder
+
+of the original warranty period or thirty 
+(30) days, whichever is longer. Outside the 
+United States or Canada, neither these 
+remedies nor any product support services
+
+offered by Microsoft are available without 
+proof of purchase from an authorized 
+international source. To exercise your remedy,
+contact: Microsoft, Attn. Microsoft
+
+Sales Information Center/One Microsoft 
+Way/Redmond, WA 98052-6399, or the Microsoft 
+subsidiary serving your country.
+
+LIMITED WARRANTY FOR PRODUCT ACQUIRED 
+OUTSIDE THE US OR CANADA. FOR THE LIMITED 
+WARRANTIES AND SPECIAL PROVISIONS PERTAINING 
+TO YOUR PARTICULAR JURISDICTION, PLEASE REFER 
+TO YOUR WARRANTY BOOKLET INCLUDED WITH THIS 
+PACKAGE OR PROVIDED WITH THE
+
+SOFTWARE PRODUCT PRINTED MATERIALS.
+
+13. DISCLAIMER OF WARRANTIES. The Limited 
+Warranty that appears above is the only 
+express warranty made to you and is provided 
+in lieu of any other express
+
+warranties (if any) created by any 
+documentation, packaging, or other 
+communications. Except for the Limited 
+Warranty and to the maximum extent permitted 
+by applicable
+
+law, Microsoft and its suppliers provide the 
+Product and support services (if any) AS IS 
+AND WITH ALL FAULTS, and hereby disclaim all 
+other warranties and conditions, either 
+express, implied or statutory, including, but 
+not limited to, any (if any) implied 
+warranties, duties or conditions of 
+merchantability, of fitness for a particular 
+purpose,
+
+of reliability or availability, of accuracy 
+or completeness of responses, of results, of 
+workmanlike effort, of lack of viruses, and 
+of lack of negligence, all with regard to
+
+the Product, and the provision of or failure 
+to provide support or other services, 
+information, software, and related content 
+through the Product or otherwise arising
+
+out of the use of the Product. ALSO, THERE 
+IS NO WARRANTY OR CONDITION OF TITLE, QUIET 
+ENJOYMENT, QUIET POSSESSION, CORRESPONDENCE 
+TO
+
+DESCRIPTION OR NON-INFRINGEMENT WITH REGARD 
+TO THE PRODUCT.
+
+14. EXCLUSION OF INCIDENTAL, CONSEQUENTIAL 
+AND CERTAIN OTHER DAMAGES. TO THE MAXIMUM 
+EXTENT PERMITTED BY APPLICABLE LAW, IN NO 
+EVENT SHALL MICROSOFT OR ITS SUPPLIERS BE 
+LIABLE FOR ANY SPECIAL, INCIDENTAL, PUNITIVE, 
+INDIRECT, OR CONSEQUENTIAL DAMAGES WHATSOEVER 
+(INCLUDING, BUT NOT LIMITED TO, DAMAGES FOR 
+LOSS OF PROFITS OR CONFIDENTIAL OR OTHER 
+INFORMATION, FOR BUSINESS
+
+INTERRUPTION, FOR PERSONAL INJURY, FOR LOSS 
+OF PRIVACY, FOR FAILURE TO MEET ANY DUTY 
+INCLUDING OF GOOD FAITH OR OF REASONABLE CARE,
+FOR NEGLIGENCE, AND FOR ANY OTHER PECUNIARY 
+OR OTHER LOSS
+
+WHATSOEVER) ARISING OUT OF OR IN ANY WAY 
+RELATED TO THE USE OF OR INABILITY TO USE THE 
+PRODUCT, THE PROVISION OF OR FAILURE TO 
+PROVIDE SUPPORT OR OTHER SERVICES, INFORMATON,
+SOFTWARE, AND RELATED CONTENT THROUGH THE 
+PRODUCT OR OTHERWISE ARISING OUT OF THE USE 
+OF THE PRODUCT, OR OTHERWISE UNDER OR IN 
+CONNECTION WITH ANY PROVISION OF THIS EULA, 
+EVEN IN THE EVENT OF THE FAULT, TORT 
+(INCLUDING NEGLIGENCE), STRICT LIABILITY, 
+BREACH OF CONTRACT OR BREACH OF WARRANTY OF 
+MICROSOFT OR ANY SUPPLIER, AND EVEN IF 
+MICROSOFT OR ANY SUPPLIER HAS BEEN ADVISED OF 
+THE POSSIBILITY OF SUCH DAMAGES. 
+
+15. LINKS TO THIRD PARTY SITES. You may link 
+to third party sites through the use of the 
+Product. The third party sites are not under 
+the control of Microsoft,
+
+and Microsoft is not responsible for the 
+contents of any third party sites, any links 
+contained in third party sites, or any 
+changes or updates to third party sites. 
+Microsoft is not responsible for webcasting 
+or any other form of transmission received 
+from any third party sites. Microsoft is 
+providing these links to third party sites 
+toyou only as a convenience, and the 
+inclusion of any link does not imply an 
+endorsement by Microsoft of the third party 
+site.
+
+16. LIMITATION OF LIABILITY AND REMEDIES. 
+Notwithstanding any damages that you might 
+incur for any reason whatsoever (including, 
+without limitation, all damages referenced 
+above and all direct or general damages), the 
+entire liability of Microsoft and any of its 
+suppliers under any provision of this EULA 
+and your
+
+exclusive remedy for all of the foregoing 
+(except for any remedy of repair or 
+replacement elected by Microsoft with respect 
+to any breach of the Limited Warranty) shall 
+be limited to the greater of the amount 
+actually paid by you for the Product or U.S.
+$5.00. The foregoing limitations, exclusions 
+and disclaimers (including Sections 11, 12 
+and 13 above) shall apply to the maximum 
+extent permitted by applicable law, even if 
+any remedy fails its essential purpose.
+
+17. U.S. GOVERNMENT LICENSE RIGHTS. All 
+Product provided to the U.S. Government 
+pursuant to solicitations issued on or after 
+December 1, 1995 is provided with the 
+commercial license rights and restrictions 
+described elsewhere herein. All Product 
+provided to the U.S. Government pursuant to 
+solicitations issued prior to December 1, 
+1995 is provided with "Restricted Rights" as 
+provided for in FAR, 48 CFR 52.227-14 (JUNE 
+1987) or DFAR, 48 CFR 252.227-7013 (OCT 1988),
+as applicable. 
+
+18. APPLICABLE LAW. If you acquired this 
+Product in the United States, this EULA is 
+governed by the laws of the State of 
+Washington. If you acquired this Product in 
+Canada, unless expressly prohibited by local 
+law, this EULA is governed by the laws in 
+force in the Province of Ontario, Canada; and,
+in respect of any dispute which may arise 
+hereunder, you consent to the jurisdiction of 
+the federal and provincial courts sitting in 
+Toronto, Ontario. If this Product was 
+acquired outside the United States, then 
+local law may apply. 
+
+19. ENTIRE AGREEMENT. This EULA (including 
+any addendum or amendment to this EULA which 
+is included with the Product) are the entire 
+agreement between you and Microsoft relating 
+to the Product and the support services (if 
+any) and they supersede all prior or 
+contemporaneous oral or written 
+communications, proposals and
+
+representations with respect to the Product 
+or any other subject matter covered by this 
+EULA. To the extent the terms of any 
+Microsoft policies or programs for support
+
+services conflict with the terms of this 
+EULA, the terms of this EULA shall control.
+
+20. The Product is protected by copyright 
+and other intellectual property laws and 
+treaties. Microsoft or its suppliers own the 
+title, copyright, and other intellectual 
+property rights in the Product. The Product 
+is licensed, not sold.
+
+ 
+
+Si vous avez acquis votre produit Microsoft 
+au CANADA, la garantie limitée suivante vous 
+concerne :
+
+GARANTIE LIMITÉE
+
+Microsoft garantit que le Produit 
+fonctionnera conformément aux documents qui 
+l'accompagnent pendant une période de 90 
+jours suivant la date de réception.
+
+Si une garantie ou condition implicite est 
+créée par votre État ou votre territoire et 
+qu'une loi fédérale, provinciale ou étatique 
+en interdit le déni, vous jouissez également 
+d'une garantie ou condition implicite, MAIS 
+UNIQUEMENT POUR LES DÉFAUTS DÉCOUVERTS DURANT 
+LA PÉRIODE DE LA PRÉSENTE GARANTIE LIMITÉE 
+(QUATRE-VINGT-DIX JOURS). IL N'Y A AUCUNE 
+GARANTIE OU CONDITION DE QUELQUE NATURE QUE 
+CE SOIT QUANT AUX DÉFAUTS ÉCOUVERTS APRES 
+CETTE PÉRIODE DE QUATRE-VINGT-DIX JOURS. 
+Certains États ou territoires ne permettent 
+pas de limiter la durée d'une garantie ou 
+condition implicite de
+
+sorte que la limitation cidessus peut ne pas 
+s'appliquer à vous.
+
+Tous les suppléments ou toutes les mises à 
+jour relatifs au Produit, y compris notamment 
+(le cas échéant), tous les ensembles de 
+services ou les réparations à chaud qui vous 
+sont fournis après l'expiration de la période 
+de quatre-vingt-dix jours de la
+
+garantie limitée ne sont pas couverts par 
+quelque garantie ou condition que ce soit, 
+expresse,implicite ou en vertu de la loi.
+
+LIMITATION DES RECOURS; ABSENCE DE DOMMAGES 
+INDIRECTS OU AUTRES. Votre recours exclusif 
+pour toute violation de la présente garantie 
+limitée est décrit ci-après. Sauf pour tout 
+remboursement au choix de Microsoft, si le 
+Produit ne
+
+respecte pas la garantie limitée de 
+Microsoft et, dans toute la mesure permise 
+par le droit applicable, même si tout recours 
+n'atteint pas son but essentiel, VOUS N'AVEZ 
+DROIT A AUCUNS DOMMAGES, NOTAMMENT DES 
+DOMMAGES INDIRECTS.
+
+Les modalités de la clause "Exclusion des 
+dommages accessoires, indirects et de 
+certains autres dommages " sont également 
+incorporées à la présente garantie limitée. 
+Certains États ou territoires ne permettent 
+pas l'exclusion ou la limitation des dommages 
+indirects ou accessoires de sorte que la 
+limitation ou l'exclusion ci-dessus peut ne 
+pas s'appliquer à vous. La présente garantie 
+limitée vous donne des droits légaux 
+spécifiques. Vous pouvez avoir d'autres 
+droits qui peuvent varier d'un territoire
+
+ou d'un État à un autre. VOTRE RECOURS 
+EXCLUSIF. La responsabilité intégrale de 
+Microsoft et de ses fournisseurs et votre 
+recours exclusif seront, selon le choix de
+
+Microsoft de temps à autre sous réserve de 
+toute loi applicable, a) le remboursement du 
+prix payé, le cas échéant, pour le Produit ou 
+b) la réparation ou le remplacement du 
+Produit qui ne respecte pas la présente 
+garantie limitée et qui est retourné à 
+Microsoft
+
+avec une copie de votre reçu. Vous recevrez 
+la compensation choisie par Microsoft, sans 
+frais, sauf que vous êtes responsible des 
+dépenses que vous pourriez engager (p. ex., 
+les frais d'envoi du Produit à Microsoft). La 
+présente garantie limitée est nulle
+
+si la défectuosité du Produit est causée par 
+un accident, un usage abusif, une mauvaise 
+application, un usage anormal ou un virus. 
+Tout Produit de remplacement sera garanti 
+pour le reste de la période de garantie 
+initiale ou pendant trente (30) jours, selon 
+la plus longue entre ces deux périodes. A 
+l'extérieur des États-Unis ou du Canada, ces 
+recours ou l'un quelconque des services de 
+soutien technique offerts par Microsoft ne 
+sont pas
+
+disponibles sans preuve d'achat d'une source 
+internationale autorisée. Pour exercer votre 
+recours, vous devez communiquer avec 
+Microsoft et vous adresser au Microsoft Sales 
+Information Center/One Microsoft Way/Redmond, 
+WA 98052-6399, ou à
+
+la filiale de Microsoft de votre pays.
+
+DÉNI DE GARANTIES. La garantie limitée qui 
+apparaît ci-dessus constitue la seule 
+garantie expresse qui vous est donnée et 
+remplace toutes autres garanties expresses 
+(s'il en est) mentionnées dans tout document, 
+emballage ou autre communication. Sauf en ce 
+qui a trait à la garantie limitée et dans 
+toute la mesure permise par le droit 
+applicable, le Produit et les services de 
+soutien technique (le cas échéant) sont 
+fournis TELS
+
+QUELS ET AVEC TOUS LEURS DÉFAUTS par 
+Microsoft et ses fournisseurs, lesquels par 
+les présentes dénient toutes autres garanties 
+et conditions expresses, implicites ou en
+
+vertu de la loi, y compris notamment (le cas 
+échéant) les garanties, devoirs ou conditions 
+implicites de qualité marchande, d'adaptation 
+à une fin particulière, de fiabilité ou
+
+disponibilité, d'exactitude ou 
+d'exhaustivité des réponses, des résultats, 
+des efforts déployés selon les règles de 
+l'art, d'absence de virus et de négligence, 
+le tout à l'égard du Produit et de la 
+prestation des services de soutien technique 
+ou autres services ou du défaut de fournir 
+une telle prestation, de l'information, du 
+logiciel, et de tout contenu s'y rapportant à 
+travers le Produit ou autrement découlant de 
+l'utilisation du Produit. PAR AILLEURS, IL 
+N'Y A AUCUNE GARANTIE OU CONDITION QUANT AU 
+TITRE DE
+
+PROPRIÉTÉ, A LA JOUISSANCE OU LA POSSESSION 
+PAISIBLE, A LA CONCORDANCE A UNE DESCRIPTION 
+NI QUANT A UNE ABSENCE DE CONTREFAÇON 
+CONCERNANT LE PRODUIT.
+
+EXCLUSION DES DOMMAGES ACCESSOIRES, 
+INDIRECTS ET DE CERTAINS AUTRES DOMMAGES. 
+DANS TOUTE LA MESURE PERMISE PAR LE DROIT 
+APPLICABLE, EN AUCUN CAS MICROSOFT OU SES 
+FOURNISSEURS NE
+
+SERONT RESPONSABLES DES DOMMAGES SPÉCIAUX, 
+ACCESSOIRES, EXEMPLAIRES OU INDIRECTS DE 
+QUELQUE NATURE QUE CE SOIT (Y COMPRIS
+
+NOTAMMENT, LES DOMMAGES A L'ÉGARD DE LA 
+PERTE DE PROFITS OU DE LA DIVULGATION DE 
+RENSEIGNEMENTS CONFIDENTIELS OU AUTRES, DE
+
+L'INTERRUPTION DES AFFAIRES, DE BLESSURES 
+CORPORELLES, DE LA VIOLATION DE LA VIE PRIVÉE,
+DE L'OMISSION DE REMPLIR TOUT DEVOIR,
+
+Y COMPRIS D'AGIR DE BONNE FOI OU D'EXERCER 
+UN SOIN RAISONNABLE, DE LA NÉGLIGENCE ET DE 
+TOUTE AUTRE PERTE PÉCUNIAIRE OU AUTRE PERTE
+
+DE QUELQUE NATURE QUE CE SOIT) DÉCOULANT OU 
+SE RAPPORTANT DE QUELQUE MANIERE QUE CE SOIT 
+A L'UTILISATION DU PRODUIT OU A L'INCAPACITÉ 
+DE S'EN SERVIR, A LA PRESTATION DE SERVICES 
+DE SOUTIEN TECHNIQUE OU AUTRES SERVICES OU A 
+L'OMISSION D'UNE TELLE PRESTATION , A 
+L'INFORMATION, AU LOGICIEL ET A TOUT CONTENU
+
+S'Y RAPPORTANT A TRAVERS LE PRODUIT OU 
+AUTREMENT DÉCOULANT DE L'UTILISATION DU 
+PRODUIT OU AUTREMENT AUX TERMES DE TOUTE
+
+DISPOSITION DU PRÉSENT CONTRAT OU 
+RELATIVEMENT A UNE TELLE DISPOSITION, MEME EN 
+CAS DE FAUTE, DE DÉLIT CIVIL (Y COMPRIS LA
+
+NÉGLIGENCE), DE RESPONSABILITÉ STRICTE, DE 
+VIOLATION DE CONTRAT OU DE VIOLATION DE 
+GARANTIE DE MICROSOFT OU DE TOUT FOURNISSEUR
+
+ET MEME SI MICROSOFT OU TOUT FOURNISSEUR A 
+ÉTÉ AVISÉ DE LA POSSIBILITÉ DE TELS DOMMAGES.
+
+LIMITATION DE RESPONSABILITÉ ET RECOURS. 
+Malgré les dommages que vous puissiez subir 
+pour quelque motif que ce soit (y compris 
+notamment, tous les dommages susmentionnés et 
+tous les dommages directs ou généraux), la 
+responsabilité
+
+intégrale de Microsoft et de l'un ou l'autre 
+de ses fournisseurs aux termes de toute 
+disposition du présent contrat et votre 
+recours exclusif à l'égard de tout ce qui 
+précède (sauf en ce qui concerne tout recours 
+de réparation ou de remplacement choisi par
+
+Microsoft à l'égard de tout manquement à la 
+garantie limitée) se limite au plus élevé 
+entre les montants suivants : le montant que 
+vous avez réellement payé pour le Produit ou 
+5,00 $US. Les limites, exclusions et dénis 
+qui précèdent (y compris les clauses
+
+ci-dessus), s'appliquent dans la toute la 
+mesure permise par le droit applicable, même 
+si tout recours n'atteint pas son but 
+essentiel.
+
+La présente Convention est régie par les 
+lois de la province d'Ontario, Canada. Vous 
+reconnaissez irrévocablement par la présente 
+la compétence des tribunaux de la province 
+d'Ontario et consentez à instituer tout 
+litige qui pourrait découler de la
+
+présente auprès des tribunaux fédéraux ou 
+provinciaux ayant juridiction pour la ville 
+de Toronto, province d'Ontario.
+
+EULAID:XPSP2_RM.0_PROx64_RTL_EN
