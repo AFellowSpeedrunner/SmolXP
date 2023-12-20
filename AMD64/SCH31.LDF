@@ -1,0 +1,2179 @@
+dn: CN=Gecos,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: gecos
+adminDisplayName: gecos
+adminDescription: The GECOS field; the common name (RFC 2307)
+attributeId: 1.3.6.1.1.1.1.2
+attributeSyntax: 2.5.5.5
+omSyntax: 22
+isSingleValued: TRUE
+systemOnly: FALSE
+searchFlags: 0
+rangeUpper: 10240
+schemaIdGuid:: Hz/go1UdU0KgrzDCp4Tkbg==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=BootFile,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: bootFile
+adminDisplayName: bootFile
+adminDescription: Boot image name
+attributeId: 1.3.6.1.1.1.1.24
+attributeSyntax: 2.5.5.5
+omSyntax: 22
+isSingleValued: FALSE
+systemOnly: FALSE
+searchFlags: 0
+rangeUpper: 10240
+schemaIdGuid:: Tsvz4yAP60KXA9L/JuUmZw==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=MemberUid,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: memberUid
+adminDisplayName: memberUid
+adminDescription: This multivalued attribute holds the login names of the members of a group.
+attributeId: 1.3.6.1.1.1.1.12
+attributeSyntax: 2.5.5.5
+omSyntax: 22
+isSingleValued: FALSE
+systemOnly: FALSE
+searchFlags: 0
+rangeUpper: 256000
+schemaIdGuid:: NrLaAy5nYU+rZPd9LcL/qw==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=GidNumber,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: gidNumber
+adminDisplayName: gidNumber
+adminDescription: An integer uniquely identifying a group in an administrative domain (RFC 2307)
+attributeId: 1.3.6.1.1.1.1.1
+attributeSyntax: 2.5.5.9
+omSyntax: 2
+isSingleValued: TRUE
+systemOnly: FALSE
+searchFlags: 1
+schemaIdGuid:: DF+5xZ7sxEGEnLRll+1mlg==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=ShadowMin,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: shadowMin
+adminDisplayName: shadowMin
+adminDescription: Minimum number of days between shadow changes.
+attributeId: 1.3.6.1.1.1.1.6
+attributeSyntax: 2.5.5.9
+omSyntax: 2
+isSingleValued: TRUE
+systemOnly: FALSE
+searchFlags: 0
+schemaIdGuid:: N4drp6HlaEWwV9wS4Evksg==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=UidNumber,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: uidNumber
+adminDisplayName: uidNumber
+adminDescription: An integer uniquely identifying a user in an administrative domain (RFC 2307)
+attributeId: 1.3.6.1.1.1.1.0
+attributeSyntax: 2.5.5.9
+omSyntax: 2
+isSingleValued: TRUE
+systemOnly: FALSE
+searchFlags: 1
+schemaIdGuid:: j8wPhWuc4Ue2cXxlS+TVsw==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=ShadowMax,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: shadowMax
+adminDisplayName: shadowMax
+adminDescription: Maximum number of days password is valid.
+attributeId: 1.3.6.1.1.1.1.7
+attributeSyntax: 2.5.5.9
+omSyntax: 2
+isSingleValued: TRUE
+systemOnly: FALSE
+searchFlags: 0
+schemaIdGuid:: UsmF8t1QnkSRYDuIDZmYjQ==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=MacAddress,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: macAddress
+adminDisplayName: macAddress
+adminDescription: MAC address in maximal, colon seperated hex notation
+attributeId: 1.3.6.1.1.1.1.22
+attributeSyntax: 2.5.5.5
+omSyntax: 22
+isSingleValued: FALSE
+systemOnly: FALSE
+searchFlags: 0
+rangeUpper: 128
+schemaIdGuid:: 3SKl5nCX4UOJ3h3lBEMo9w==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=ShadowFlag,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: shadowFlag
+adminDisplayName: shadowFlag
+adminDescription: This is a part of the shadow map used to store the flag value.
+attributeId: 1.3.6.1.1.1.1.11
+attributeSyntax: 2.5.5.9
+omSyntax: 2
+isSingleValued: TRUE
+systemOnly: FALSE
+searchFlags: 0
+schemaIdGuid:: Dbf+jdvFtkaxXqQ4nmzumw==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=NisMapName,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: nisMapName
+adminDisplayName: nisMapName
+adminDescription: The attribute contains the name of the map to which the object belongs.
+attributeId: 1.3.6.1.1.1.1.26
+attributeSyntax: 2.5.5.5
+omSyntax: 22
+isSingleValued: TRUE
+systemOnly: FALSE
+searchFlags: 0
+rangeUpper: 1024
+schemaIdGuid:: eTydlpoOlU2wrL3ef/jzoQ==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=LoginShell,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: loginShell
+adminDisplayName: loginShell
+adminDescription: The path to the login shell (RFC 2307)
+attributeId: 1.3.6.1.1.1.1.4
+attributeSyntax: 2.5.5.5
+omSyntax: 22
+isSingleValued: TRUE
+systemOnly: FALSE
+searchFlags: 0
+rangeUpper: 1024
+schemaIdGuid:: LNFTpTEyXkyK340YlpdyHg==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=msSFU-30-Name,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: msSFU30Name
+adminDisplayName: msSFU-30-Name
+adminDescription: stores the name of a map
+attributeId: 1.2.840.113556.1.6.18.1.309
+attributeSyntax: 2.5.5.5
+omSyntax: 22
+isSingleValued: TRUE
+systemOnly: FALSE
+searchFlags: 1
+rangeUpper: 1024
+schemaIdGuid:: 09HFFsI1YUCocKXO/agE8A==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=ms-DFSR-Flags,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: msDFSR-Flags
+adminDisplayName: ms-DFSR-Flags
+adminDescription: DFSR Object Flags
+attributeId: 1.2.840.113556.1.6.13.3.16
+attributeSyntax: 2.5.5.9
+omSyntax: 2
+isSingleValued: TRUE
+searchFlags: 0
+schemaIdGuid:: lVZR/mE/yEWb+hnBSMV7CQ==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=NisMapEntry,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: nisMapEntry
+adminDisplayName: nisMapEntry
+adminDescription: This holds one map entry of a non standard map.
+attributeId: 1.3.6.1.1.1.1.27
+attributeSyntax: 2.5.5.5
+omSyntax: 22
+isSingleValued: TRUE
+systemOnly: FALSE
+searchFlags: 0
+rangeUpper: 1024
+schemaIdGuid:: biGVSsD8LkC1f1lxYmFIqQ==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=OncRpcNumber,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: oncRpcNumber
+adminDisplayName: oncRpcNumber
+adminDescription: This is a part of the rpc map and stores the RPC number for UNIX RPCs.
+attributeId: 1.3.6.1.1.1.1.18
+attributeSyntax: 2.5.5.9
+omSyntax: 2
+isSingleValued: TRUE
+systemOnly: FALSE
+searchFlags: 0
+schemaIdGuid:: 9SVoltkBXEqgEdFa6E76VQ==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=IpHostNumber,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: ipHostNumber
+adminDisplayName: ipHostNumber
+adminDescription: IP address as a dotted decimal omitting leading zeros
+attributeId: 1.3.6.1.1.1.1.19
+attributeSyntax: 2.5.5.5
+omSyntax: 22
+isSingleValued: FALSE
+systemOnly: FALSE
+searchFlags: 0
+rangeUpper: 128
+schemaIdGuid:: IbeL3tyF3k+2h5ZXaI5mfg==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=ShadowExpire,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: shadowExpire
+adminDisplayName: shadowExpire
+adminDescription: Absolute date to expire account
+attributeId: 1.3.6.1.1.1.1.10
+attributeSyntax: 2.5.5.9
+omSyntax: 2
+isSingleValued: TRUE
+systemOnly: FALSE
+searchFlags: 0
+schemaIdGuid:: AJoVdf8f9EyL/07yaVz2Qw==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=ms-DFSR-Enabled,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: msDFSR-Enabled
+adminDisplayName: ms-DFSR-Enabled
+adminDescription: Specify if the object enabled
+attributeId: 1.2.840.113556.1.6.13.3.9
+attributeSyntax: 2.5.5.8
+omSyntax: 1
+isSingleValued: TRUE
+searchFlags: 0
+schemaIdGuid:: 52pyA32ORkSKrqkWV8AJkw==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=ms-DFSR-DfsPath,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: msDFSR-DfsPath
+adminDisplayName: ms-DFSR-DfsPath
+adminDescription: Full path of associated DFS link
+attributeId: 1.2.840.113556.1.6.13.3.21
+attributeSyntax: 2.5.5.12
+omSyntax: 64
+isSingleValued: TRUE
+searchFlags: 1
+rangeLower: 0
+rangeUpper: 32767
+schemaIdGuid:: 4gPJLIw5O0Sshv9rAerHug==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=BootParameter,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: bootParameter
+adminDisplayName: bootParameter
+adminDescription: rpc.bootparamd parameter
+attributeId: 1.3.6.1.1.1.1.23
+attributeSyntax: 2.5.5.5
+omSyntax: 22
+isSingleValued: FALSE
+systemOnly: FALSE
+searchFlags: 0
+rangeUpper: 10240
+schemaIdGuid:: UAcq13yMbkGHFOZfEekIvg==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=msSFU-30-Aliases,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: msSFU30Aliases
+adminDisplayName: msSFU-30-Aliases
+adminDescription: part of the NIS mail map
+attributeId: 1.2.840.113556.1.6.18.1.323
+attributeSyntax: 2.5.5.5
+omSyntax: 22
+isSingleValued: FALSE
+systemOnly: FALSE
+searchFlags: 0
+rangeUpper: 153600
+schemaIdGuid:: cfHrIJrGMUyyndy4N9iRLQ==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=msSFU-30-Domains,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: msSFU30Domains
+adminDisplayName: msSFU-30-Domains
+adminDescription: stores the list of UNIX NIS domains migrated to the same AD NIS domain
+attributeId: 1.2.840.113556.1.6.18.1.340
+attributeSyntax: 2.5.5.5
+omSyntax: 22
+isSingleValued: FALSE
+systemOnly: FALSE
+searchFlags: 1
+rangeUpper: 256000
+schemaIdGuid:: 014JkzBv3Uu3NGXVafX3yQ==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=IpServicePort,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: ipServicePort
+adminDisplayName: ipServicePort
+adminDescription: This is a part of the services map and contains the port at which the UNIX service is available.
+attributeId: 1.3.6.1.1.1.1.15
+attributeSyntax: 2.5.5.9
+omSyntax: 2
+isSingleValued: TRUE
+systemOnly: FALSE
+searchFlags: 0
+schemaIdGuid:: v64t/2P0WkmEBT5INkHqog==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=ms-DFSR-Version,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: msDFSR-Version
+adminDisplayName: ms-DFSR-Version
+adminDescription: DFSR version number
+attributeId: 1.2.840.113556.1.6.13.3.1
+attributeSyntax: 2.5.5.12
+omSyntax: 64
+isSingleValued: TRUE
+rangeUpper: 256
+searchFlags: 0
+schemaIdGuid:: CBSGGsM46km6dYVIGnfGVQ==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=ms-DFSR-Options,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: msDFSR-Options
+adminDisplayName: ms-DFSR-Options
+adminDescription: DFSR object options
+attributeId: 1.2.840.113556.1.6.13.3.17
+attributeSyntax: 2.5.5.9
+omSyntax: 2
+isSingleValued: TRUE
+searchFlags: 0
+schemaIdGuid:: hHDW1iDHfUGGR7aWI3oRTA==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=ShadowWarning,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: shadowWarning
+adminDisplayName: shadowWarning
+adminDescription: Number of days before password expiry to warn user
+attributeId: 1.3.6.1.1.1.1.8
+attributeSyntax: 2.5.5.9
+omSyntax: 2
+isSingleValued: TRUE
+systemOnly: FALSE
+searchFlags: 0
+schemaIdGuid:: nJzoenYpRkq7ijQPiFYBFw==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=ms-DFSR-Schedule,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: msDFSR-Schedule
+adminDisplayName: ms-DFSR-Schedule
+adminDescription: DFSR Replication schedule
+attributeId: 1.2.840.113556.1.6.13.3.14
+attributeSyntax: 2.5.5.10
+omSyntax: 4
+isSingleValued: TRUE
+searchFlags: 0
+rangeLower: 336
+rangeUpper: 336
+schemaIdGuid:: X/GZRh+n4kif9ViXwHWSBQ==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=ShadowInactive,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: shadowInactive
+adminDisplayName: shadowInactive
+adminDescription: Number of days before password expiry to warn user
+attributeId: 1.3.6.1.1.1.1.9
+attributeSyntax: 2.5.5.9
+omSyntax: 2
+isSingleValued: TRUE
+systemOnly: FALSE
+searchFlags: 0
+schemaIdGuid:: Hx2HhhAzEkOO/a9J3PsmcQ==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=ms-DFSR-RootPath,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: msDFSR-RootPath
+adminDisplayName: ms-DFSR-RootPath
+adminDescription: Full path of the root directory
+attributeId: 1.2.840.113556.1.6.13.3.3
+attributeSyntax: 2.5.5.12
+omSyntax: 64
+isSingleValued: TRUE
+searchFlags: 0
+rangeLower: 0
+rangeUpper: 32767
+schemaIdGuid:: wejV1x/mT0afzyC74KLsVA==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=ms-DFSR-Keywords,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: msDFSR-Keywords
+adminDisplayName: ms-DFSR-Keywords
+adminDescription: User defined keywords
+attributeId: 1.2.840.113556.1.6.13.3.15
+attributeSyntax: 2.5.5.12
+omSyntax: 64
+isSingleValued: TRUE
+searchFlags: 0
+rangeLower: 0
+rangeUpper: 32767
+schemaIdGuid:: kkaLBCdiZ0ugdMRDcIPhSw==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=ms-DFSR-RootFence,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: msDFSR-RootFence
+adminDisplayName: ms-DFSR-RootFence
+adminDescription: Root directory fence value
+attributeId: 1.2.840.113556.1.6.13.3.22
+attributeSyntax: 2.5.5.9
+omSyntax: 2
+isSingleValued: TRUE
+searchFlags: 0
+schemaIdGuid:: lI6SUdgsvkq1UuUEEkRDcA==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=msSFU-30-Nis-Domain,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: msSFU30NisDomain
+adminDisplayName: msSFU-30-Nis-Domain
+adminDescription: This attribute is used to store the NIS domain
+attributeId: 1.2.840.113556.1.6.18.1.339
+attributeSyntax: 2.5.5.5
+omSyntax: 22
+isSingleValued: TRUE
+rangeUpper: 1024
+systemOnly: FALSE
+searchFlags: 9
+schemaIdGuid:: 47LjnvPH+EWMnxOCvkmE0g==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=IpNetmaskNumber,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: ipNetmaskNumber
+adminDisplayName: ipNetmaskNumber
+adminDescription: IP netmask as a dotted decimal, omitting leading zeros
+attributeId: 1.3.6.1.1.1.1.21
+attributeSyntax: 2.5.5.5
+omSyntax: 22
+isSingleValued: TRUE
+systemOnly: FALSE
+searchFlags: 0
+rangeUpper: 128
+schemaIdGuid:: zU/2by5GYk+0SppTR2WeuQ==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=msSFU-30-Map-Filter,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: msSFU30MapFilter
+adminDisplayName: msSFU-30-Map-Filter
+adminDescription: stores a string containing map keys, domain name and so on. The string is used to filter data in a map
+attributeId: 1.2.840.113556.1.6.18.1.306
+attributeSyntax: 2.5.5.12
+omSyntax: 64
+isSingleValued: TRUE
+systemOnly: FALSE
+searchFlags: 0
+rangeUpper: 1024
+schemaIdGuid:: AW6xt08CI06tDXHxpAa2hA==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=ms-DFSR-Extension,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: msDFSR-Extension
+adminDisplayName: ms-DFSR-Extension
+adminDescription: DFSR Extension attribute
+attributeId: 1.2.840.113556.1.6.13.3.2
+attributeSyntax: 2.5.5.10
+omSyntax: 4
+isSingleValued: TRUE
+searchFlags: 0
+rangeLower: 0
+rangeUpper: 65536
+schemaIdGuid:: 7BHweGanGUutz3uB7XgaTQ==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=IpNetworkNumber,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: ipNetworkNumber
+adminDisplayName: ipNetworkNumber
+adminDescription: IP network as a dotted decimal, omitting leading zeros
+attributeId: 1.3.6.1.1.1.1.20
+attributeSyntax: 2.5.5.5
+omSyntax: 22
+isSingleValued: TRUE
+systemOnly: FALSE
+searchFlags: 0
+rangeUpper: 128
+schemaIdGuid:: 9FQ4TocwpEKoE7sMUolY0w==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=msSFU-30-Key-Values,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: msSFU30KeyValues
+adminDisplayName: msSFU-30-Key-Values
+adminDescription: This attribute is internal to Server for NIS and is used as a scratch pad
+attributeId: 1.2.840.113556.1.6.18.1.324
+attributeSyntax: 2.5.5.5
+omSyntax: 22
+isSingleValued: FALSE
+rangeUpper: 10240
+systemOnly: FALSE
+searchFlags: 0
+schemaIdGuid:: NQKDN+nl8kaSK9jUTwPnrg==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=msSFU-30-Yp-Servers,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: msSFU30YpServers
+adminDisplayName: msSFU-30-Yp-Servers
+adminDescription: Stores ypserves list, list of "Servers for NIS" in a NIS domain
+attributeId: 1.2.840.113556.1.6.18.1.341
+attributeSyntax: 2.5.5.5
+omSyntax: 22
+isSingleValued: FALSE
+rangeUpper: 20480
+systemOnly: FALSE
+searchFlags: 1
+schemaIdGuid:: S5RKCFDh/kuTRUDhrtrrug==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=ms-DFSR-RdcEnabled,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: msDFSR-RdcEnabled
+adminDisplayName: ms-DFSR-RdcEnabled
+adminDescription: Enable and disable RDC
+attributeId: 1.2.840.113556.1.6.13.3.19
+attributeSyntax: 2.5.5.8
+omSyntax: 1
+isSingleValued: TRUE
+searchFlags: 0
+schemaIdGuid:: BU6046f0eECnMPSGcKdD+A==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=ShadowLastChange,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: shadowLastChange
+adminDisplayName: shadowLastChange
+adminDescription: Last change of shadow information.
+attributeId: 1.3.6.1.1.1.1.5
+attributeSyntax: 2.5.5.9
+omSyntax: 2
+isSingleValued: TRUE
+systemOnly: FALSE
+searchFlags: 0
+schemaIdGuid:: nGjy+OgpQ0iBd+i5jhXurA==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=ms-DFSR-FileFilter,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: msDFSR-FileFilter
+adminDisplayName: ms-DFSR-FileFilter
+adminDescription: Filter string applied to files
+attributeId: 1.2.840.113556.1.6.13.3.12
+attributeSyntax: 2.5.5.12
+omSyntax: 64
+isSingleValued: TRUE
+searchFlags: 0
+rangeLower: 0
+rangeUpper: 32767
+schemaIdGuid:: rHCC1tylQUimrM1ovjjBgQ==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=IpProtocolNumber,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: ipProtocolNumber
+adminDisplayName: ipProtocolNumber
+adminDescription: This is part of the protocols map and stores the unique number that identifies the protocol.
+attributeId: 1.3.6.1.1.1.1.17
+attributeSyntax: 2.5.5.9
+omSyntax: 2
+isSingleValued: TRUE
+systemOnly: FALSE
+searchFlags: 0
+schemaIdGuid:: 68b16y0OFUSWcBCBmTtCEQ==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=UnixUserPassword,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: unixUserPassword
+adminDisplayName: unixUserPassword
+adminDescription: userPassword compatible with Unix system.
+attributeId: 1.2.840.113556.1.4.1910
+attributeSyntax: 2.5.5.10
+omSyntax: 4
+isSingleValued: FALSE
+systemOnly: FALSE
+searchFlags: 128
+rangeLower: 1
+rangeUpper: 128
+schemaIdGuid:: R7csYejAkk+SIf3V8VtVDQ==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=ms-DFSR-StagingPath,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: msDFSR-StagingPath
+adminDisplayName: ms-DFSR-StagingPath
+adminDescription: Full path of the staging directory
+attributeId: 1.2.840.113556.1.6.13.3.5
+attributeSyntax: 2.5.5.12
+omSyntax: 64
+isSingleValued: TRUE
+searchFlags: 0
+rangeLower: 0
+rangeUpper: 32767
+schemaIdGuid:: nqa5hqbwXUCZu3fZd5ksKg==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=MemberNisNetgroup,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: memberNisNetgroup
+adminDisplayName: memberNisNetgroup
+adminDescription: A multivalued attribute that holds the list of netgroups that are members of this netgroup.
+attributeId: 1.3.6.1.1.1.1.13
+attributeSyntax: 2.5.5.5
+omSyntax: 22
+isSingleValued: FALSE
+rangeUpper: 153600
+systemOnly: FALSE
+searchFlags: 0
+schemaIdGuid:: 3BdqD+VT6EuUQo884vkBKg==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=msSFU-30-Order-Number,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: msSFU30OrderNumber
+adminDisplayName: msSFU-30-Order-Number
+adminDescription: Every time the data stored in the msSFU-30-Domain-Info object is changed, the value of this attribute is incremented. Server for NIS uses this object to check if the map has changed. This number is used to track data changes between ypxfer calls
+attributeId: 1.2.840.113556.1.6.18.1.308
+attributeSyntax: 2.5.5.12
+omSyntax: 64
+isSingleValued: TRUE
+rangeUpper: 1024
+systemOnly: FALSE
+searchFlags: 1
+schemaIdGuid:: BV9iAu7Rn0+zZlUma+y5XA==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=IpServiceProtocol,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: ipServiceProtocol
+adminDisplayName: ipServiceProtocol
+adminDescription: This is a part of the services map and stores the protocol number for a UNIX service.
+attributeId: 1.3.6.1.1.1.1.16
+attributeSyntax: 2.5.5.5
+omSyntax: 22
+isSingleValued: FALSE
+rangeUpper: 1024
+systemOnly: FALSE
+searchFlags: 0
+schemaIdGuid:: C+yWzdYetEOya/FwtkWIPw==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=msSFU-30-Posix-Member,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: msSFU30PosixMember
+adminDisplayName: msSFU-30-Posix-Member
+adminDescription: This attribute is used to stores the DN display name of users’ part of a group
+attributeId: 1.2.840.113556.1.6.18.1.346
+attributeSyntax: 2.5.5.1
+omSyntax: 127
+isSingleValued: FALSE
+systemOnly: FALSE
+searchFlags: 0
+omObjectClass:: KwwCh3McAIVK
+schemaIdGuid:: Ldh1yEgo7Ey7UDxUhtCdVw==
+linkID: 2030
+showInAdvancedViewOnly: TRUE
+
+dn: CN=UnixHomeDirectory,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: unixHomeDirectory
+adminDisplayName: unixHomeDirectory
+adminDescription: The absolute path to the home directory (RFC 2307)
+attributeId: 1.3.6.1.1.1.1.3
+attributeSyntax: 2.5.5.5
+omSyntax: 22
+isSingleValued: TRUE
+rangeUpper: 2048
+systemOnly: FALSE
+searchFlags: 0
+schemaIdGuid:: ErotvA8ATUa/HQgIRl2IQw==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=msSFU-30-Crypt-Method,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: msSFU30CryptMethod
+adminDisplayName: msSFU-30-Crypt-Method
+adminDescription: used to store the method used for encrypting the UNIX passwords, either MD5 or crypt.
+attributeId: 1.2.840.113556.1.6.18.1.352
+attributeSyntax: 2.5.5.5
+omSyntax: 22
+isSingleValued: TRUE
+rangeUpper: 1024
+systemOnly: FALSE
+searchFlags: 0
+schemaIdGuid:: o9IDRXA9uEGwd9/xI8FYZQ==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=NisNetgroupTriple,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: nisNetgroupTriple
+adminDisplayName: nisNetgroupTriple
+adminDescription: This attribute represents one entry from a netgroup map.
+attributeId: 1.3.6.1.1.1.1.14
+attributeSyntax: 2.5.5.5
+omSyntax: 22
+isSingleValued: FALSE
+rangeUpper: 153600
+systemOnly: FALSE
+searchFlags: 0
+schemaIdGuid:: dC4DqO8w9U+v/A/CF3g/7A==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=ms-DFSR-ConflictPath,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: msDFSR-ConflictPath
+adminDisplayName: ms-DFSR-ConflictPath
+adminDescription: Full path of the conflict directory
+attributeId: 1.2.840.113556.1.6.13.3.7
+attributeSyntax: 2.5.5.12
+omSyntax: 64
+isSingleValued: TRUE
+searchFlags: 0
+rangeLower: 0
+rangeUpper: 32767
+schemaIdGuid:: yLzwXPdg/0u9pq6gNE6xUQ==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=msSFU-30-Max-Gid-Number,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: msSFU30MaxGidNumber
+adminDisplayName: msSFU-30-Max-Gid-Number
+adminDescription: stores the maximum number of groups migrated to a NIS domain
+attributeId: 1.2.840.113556.1.6.18.1.342
+attributeSyntax: 2.5.5.9
+omSyntax: 2
+isSingleValued: TRUE
+systemOnly: FALSE
+searchFlags: 1
+schemaIdGuid:: pmruBDv4mka/WjwA02NGaQ==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=msSFU-30-Max-Uid-Number,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: msSFU30MaxUidNumber
+adminDisplayName: msSFU-30-Max-Uid-Number
+adminDescription: stores the maximum number of users migrated to a NIS domain
+attributeId: 1.2.840.113556.1.6.18.1.343
+attributeSyntax: 2.5.5.9
+omSyntax: 2
+isSingleValued: TRUE
+systemOnly: FALSE
+searchFlags: 1
+schemaIdGuid:: N4SZ7ETZKEqFACF1iK38dQ==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=ms-DFSR-RootSizeInMb,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: msDFSR-RootSizeInMb
+adminDisplayName: ms-DFSR-RootSizeInMb
+adminDescription: Size of the root directory in MB
+attributeId: 1.2.840.113556.1.6.13.3.4
+attributeSyntax: 2.5.5.16
+omSyntax: 65
+isSingleValued: TRUE
+searchFlags: 0
+rangeLower: 0
+rangeUpper: -1
+schemaIdGuid:: rGm3kBNEz0OteoZxQudAow==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=ms-DFSR-DfsLinkTarget,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: msDFSR-DfsLinkTarget
+adminDisplayName: ms-DFSR-DfsLinkTarget
+adminDescription: Link target used for the subscription
+attributeId: 1.2.840.113556.1.6.13.3.24
+attributeSyntax: 2.5.5.12
+omSyntax: 64
+isSingleValued: TRUE
+searchFlags: 0
+rangeLower: 0
+rangeUpper: 32767
+schemaIdGuid:: qVu49/k7j0KqtC7ubVbwYw==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=msSFU-30-Posix-Member-Of,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: msSFU30PosixMemberOf
+adminDisplayName: msSFU-30-Posix-Member-Of
+adminDescription: stores the display names of groups to which this user belongs to
+attributeId: 1.2.840.113556.1.6.18.1.347
+attributeSyntax: 2.5.5.1
+omSyntax: 127
+isSingleValued: FALSE
+systemOnly: FALSE
+searchFlags: 0
+omObjectClass:: KwwCh3McAIVK
+schemaIdGuid:: kmvXe0QyikOtpiT16jQ4Hg==
+linkID: 2031
+showInAdvancedViewOnly: TRUE
+systemFlags: 1
+
+dn: CN=msSFU-30-Key-Attributes,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: msSFU30KeyAttributes
+adminDisplayName: msSFU-30-Key-Attributes
+adminDescription: stores the names of the attributes which the Server for NIS will use as keys to search a map
+attributeId: 1.2.840.113556.1.6.18.1.301
+attributeSyntax: 2.5.5.12
+omSyntax: 64
+isSingleValued: FALSE
+rangeUpper: 1024
+systemOnly: FALSE
+searchFlags: 0
+schemaIdGuid:: mNbsMp7OlEihNHrXawgugw==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=msSFU-30-Field-Separator,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: msSFU30FieldSeparator
+adminDisplayName: msSFU-30-Field-Separator
+adminDescription: stores Field Separator for each NIS map
+attributeId: 1.2.840.113556.1.6.18.1.302
+attributeSyntax: 2.5.5.12
+omSyntax: 64
+isSingleValued: TRUE
+rangeUpper: 50
+systemOnly: FALSE
+searchFlags: 0
+schemaIdGuid:: QhrhooHnoUyn+uwwf2K2oQ==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=ms-DFSR-ContentSetGuid,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: msDFSR-ContentSetGuid
+adminDisplayName: ms-DFSR-ContentSetGuid
+adminDescription: DFSR Content set guid
+attributeId: 1.2.840.113556.1.6.13.3.18
+attributeSyntax: 2.5.5.10
+omSyntax: 4
+isSingleValued: TRUE
+searchFlags: 0
+rangeLower: 16
+rangeUpper: 16
+schemaIdGuid:: 4ag1EKhnIUy3uwMc35nXoA==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=ms-DFSR-MemberReference,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: msDFSR-MemberReference
+adminDisplayName: ms-DFSR-MemberReference
+adminDescription: Forward link to DFSR-Member object
+attributeId: 1.2.840.113556.1.6.13.3.100
+attributeSyntax: 2.5.5.1
+omSyntax: 127
+isSingleValued: TRUE
+searchFlags: 0
+omObjectClass:: KwwCh3McAIVK
+schemaIdGuid:: qjcTJsPxskS76siNSebwxw==
+linkID: 2052
+showInAdvancedViewOnly: TRUE
+
+dn: CN=msSFU-30-Search-Container,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: msSFU30SearchContainer
+adminDisplayName: msSFU-30-Search-Container
+adminDescription: stores the identifier of an object from where each search will begin
+attributeId: 1.2.840.113556.1.6.18.1.300
+attributeSyntax: 2.5.5.12
+omSyntax: 64
+isSingleValued: TRUE
+rangeUpper: 2048
+systemOnly: FALSE
+searchFlags: 0
+schemaIdGuid:: or/uJ+v7jk+q1sUCR5lCkQ==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=ms-DFSR-StagingSizeInMb,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: msDFSR-StagingSizeInMb
+adminDisplayName: ms-DFSR-StagingSizeInMb
+adminDescription: Size of the staging directory in MB
+attributeId: 1.2.840.113556.1.6.13.3.6
+attributeSyntax: 2.5.5.16
+omSyntax: 65
+isSingleValued: TRUE
+searchFlags: 0
+rangeLower: 0
+rangeUpper: -1
+schemaIdGuid:: II8KJfz2WUWuZeSyTGeuvg==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=ms-DFSR-DirectoryFilter,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: msDFSR-DirectoryFilter
+adminDisplayName: ms-DFSR-DirectoryFilter
+adminDescription: Filter string applied to directories
+attributeId: 1.2.840.113556.1.6.13.3.13
+attributeSyntax: 2.5.5.12
+omSyntax: 64
+isSingleValued: TRUE
+searchFlags: 0
+rangeLower: 0
+rangeUpper: 32767
+schemaIdGuid:: d7THky4fQEu3vwB+jQOMzw==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=ms-DFSR-ConflictSizeInMb,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: msDFSR-ConflictSizeInMb
+adminDisplayName: ms-DFSR-ConflictSizeInMb
+adminDescription: Size of the Conflict directory in MB
+attributeId: 1.2.840.113556.1.6.13.3.8
+attributeSyntax: 2.5.5.16
+omSyntax: 65
+isSingleValued: TRUE
+searchFlags: 0
+rangeLower: 0
+rangeUpper: -1
+schemaIdGuid:: yT/Tms+qmUK7PtH8bqiOSQ==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=msSFU-30-Is-Valid-Container,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: msSFU30IsValidContainer
+adminDisplayName: msSFU-30-Is-Valid-Container
+adminDescription: internal to Server for NIS and stores whether the current search root is valid
+attributeId: 1.2.840.113556.1.6.18.1.350
+attributeSyntax: 2.5.5.9
+omSyntax: 2
+isSingleValued: TRUE
+systemOnly: FALSE
+searchFlags: 1
+schemaIdGuid:: 9ULqDY0nV0G0p0m1lmSRWw==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=msSFU-30-Search-Attributes,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: msSFU30SearchAttributes
+adminDisplayName: msSFU-30-Search-Attributes
+adminDescription: stores the names of the attributes Server for NIS needs while searching a map
+attributeId: 1.2.840.113556.1.6.18.1.304
+attributeSyntax: 2.5.5.12
+omSyntax: 64
+isSingleValued: FALSE
+rangeUpper: 1024
+systemOnly: FALSE
+searchFlags: 0
+schemaIdGuid:: 8C2a71cuyEiJUAzGdABHMw==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=msSFU-30-Master-Server-Name,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: msSFU30MasterServerName
+adminDisplayName: msSFU-30-Master-Server-Name
+adminDescription: The value in this container is returned when Server for NIS processes a yp_master API call
+attributeId: 1.2.840.113556.1.6.18.1.307
+attributeSyntax: 2.5.5.12
+omSyntax: 64
+isSingleValued: TRUE
+rangeUpper: 1024
+systemOnly: FALSE
+searchFlags: 1
+schemaIdGuid:: ogjJTBieDkGEWfF8xCICCg==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=msSFU-30-Result-Attributes,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: msSFU30ResultAttributes
+adminDisplayName: msSFU-30-Result-Attributes
+adminDescription: Server for NIS uses this object as a scratch pad
+attributeId: 1.2.840.113556.1.6.18.1.305
+attributeSyntax: 2.5.5.12
+omSyntax: 64
+isSingleValued: FALSE
+rangeUpper: 1024
+systemOnly: FALSE
+searchFlags: 0
+schemaIdGuid:: trBn4UVAM0SsNVP5ctRcug==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=ms-DFSR-MemberReferenceBL,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: msDFSR-MemberReferenceBL
+adminDisplayName: ms-DFSR-MemberReferenceBL
+adminDescription: Backlink attribute for ms-DFSR-MemberReference
+attributeId: 1.2.840.113556.1.6.13.3.102
+attributeSyntax: 2.5.5.1
+omSyntax: 127
+isSingleValued: FALSE
+searchFlags: 0
+omObjectClass:: KwwCh3McAIVK
+schemaIdGuid:: xmLerYAY7UG9PDC30l4U8A==
+linkID: 2053
+showInAdvancedViewOnly: TRUE
+systemFlags: 1
+
+dn: CN=ms-DFSR-ComputerReference,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: msDFSR-ComputerReference
+adminDisplayName: ms-DFSR-ComputerReference
+adminDescription: Forward link to Computer object
+attributeId: 1.2.840.113556.1.6.13.3.101
+attributeSyntax: 2.5.5.1
+omSyntax: 127
+isSingleValued: TRUE
+searchFlags: 0
+omObjectClass:: KwwCh3McAIVK
+schemaIdGuid:: hVd7bCE9v0GKimJ5QVRNWg==
+linkID: 2050
+showInAdvancedViewOnly: TRUE
+
+dn: CN=ms-DFSR-RdcMinFileSizeInKb,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: msDFSR-RdcMinFileSizeInKb
+adminDisplayName: ms-DFSR-RdcMinFileSizeInKb
+adminDescription: Minimum file size to apply RDC
+attributeId: 1.2.840.113556.1.6.13.3.20
+attributeSyntax: 2.5.5.16
+omSyntax: 65
+isSingleValued: TRUE
+searchFlags: 0
+rangeLower: 0
+rangeUpper: -1
+schemaIdGuid:: MKMC9OWswU2MyXTZAL+K4A==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=msSFU-30-NSMAP-Field-Position,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: msSFU30NSMAPFieldPosition
+adminDisplayName: msSFU-30-NSMAP-Field-Position
+adminDescription: This attribute stores the "field position", to extract the key from a non-standard map
+attributeId: 1.2.840.113556.1.6.18.1.345
+attributeSyntax: 2.5.5.5
+omSyntax: 22
+isSingleValued: TRUE
+rangeUpper: 1024
+systemOnly: FALSE
+searchFlags: 0
+schemaIdGuid:: Xp1cWJn1B0+c+UNzr0uJ0w==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=ms-DFSR-ComputerReferenceBL,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: msDFSR-ComputerReferenceBL
+adminDisplayName: ms-DFSR-ComputerReferenceBL
+adminDescription: Backlink attribute for ms-DFSR-ComputerReference
+attributeId: 1.2.840.113556.1.6.13.3.103
+attributeSyntax: 2.5.5.1
+omSyntax: 127
+isSingleValued: FALSE
+searchFlags: 0
+omObjectClass:: KwwCh3McAIVK
+schemaIdGuid:: 1ya1XhvXrkSMxpVGAFLmrA==
+linkID: 2051
+showInAdvancedViewOnly: TRUE
+systemFlags: 1
+
+dn: CN=msSFU-30-Intra-Field-Separator,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: msSFU30IntraFieldSeparator
+adminDisplayName: msSFU-30-Intra-Field-Separator
+adminDescription: This attribute stores intra field separators for each NIS map
+attributeId: 1.2.840.113556.1.6.18.1.303
+attributeSyntax: 2.5.5.12
+omSyntax: 64
+isSingleValued: TRUE
+rangeUpper: 50
+systemOnly: FALSE
+searchFlags: 0
+schemaIdGuid:: 8K6yleQnuUyICqLZqeojuA==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=ms-DFSR-ReplicationGroupGuid,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: msDFSR-ReplicationGroupGuid
+adminDisplayName: ms-DFSR-ReplicationGroupGuid
+adminDescription: Replication group guid
+attributeId: 1.2.840.113556.1.6.13.3.23
+attributeSyntax: 2.5.5.10
+omSyntax: 4
+isSingleValued: TRUE
+searchFlags: 1
+rangeLower: 16
+rangeUpper: 16
+schemaIdGuid:: loetLRl2+E+Wbgpcxnsofw==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=msSFU-30-Netgroup-Host-At-Domain,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: msSFU30NetgroupHostAtDomain
+adminDisplayName: msSFU-30-Netgroup-Host-At-Domain
+adminDescription: Part of the netgroup map.This attribute represents computed strings such as host@domain
+attributeId: 1.2.840.113556.1.6.18.1.348
+attributeSyntax: 2.5.5.5
+omSyntax: 22
+isSingleValued: FALSE
+rangeUpper: 2048
+systemOnly: FALSE
+searchFlags: 1
+schemaIdGuid:: Zb/Sl2YEUkiiWuwg9X7jbA==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=msSFU-30-Netgroup-User-At-Domain,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: msSFU30NetgroupUserAtDomain
+adminDisplayName: msSFU-30-Netgroup-User-At-Domain
+adminDescription: Part of the netgroup map.This attribute represents computed strings such as user@domain
+attributeId: 1.2.840.113556.1.6.18.1.349
+attributeSyntax: 2.5.5.5
+omSyntax: 22
+isSingleValued: FALSE
+rangeUpper: 2048
+systemOnly: FALSE
+searchFlags: 1
+schemaIdGuid:: 7U7oqTDmZ0u0s8rSqC00Xg==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=ms-DFSR-ReplicationGroupType,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: msDFSR-ReplicationGroupType
+adminDisplayName: ms-DFSR-ReplicationGroupType
+adminDescription: Type of Replication Group
+attributeId: 1.2.840.113556.1.6.13.3.10
+attributeSyntax: 2.5.5.9
+omSyntax: 2
+isSingleValued: TRUE
+searchFlags: 0
+schemaIdGuid:: yA/t7gEQ7UWAzLv3RJMHIA==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=ms-DFSR-TombstoneExpiryInMin,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: msDFSR-TombstoneExpiryInMin
+adminDisplayName: ms-DFSR-TombstoneExpiryInMin
+adminDescription: Tombstone record lifetime in minutes
+attributeId: 1.2.840.113556.1.6.13.3.11
+attributeSyntax: 2.5.5.9
+omSyntax: 2
+isSingleValued: TRUE
+searchFlags: 0
+rangeLower: 0
+rangeUpper: 2147483647
+schemaIdGuid:: TF3jIyTjYUiiL+GZFA2uAA==
+showInAdvancedViewOnly: TRUE
+
+dn: CN=ms-DS-Source-Object-DN,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: attributeSchema
+ldapDisplayName: msDS-SourceObjectDN
+adminDisplayName: ms-DS-Source-Object-DN
+adminDescription: The string representation of the DN of the object in another forest that corresponds to this object.
+attributeId: 1.2.840.113556.1.4.1879
+attributeSyntax: 2.5.5.12
+omSyntax: 64
+isSingleValued: TRUE
+systemOnly: FALSE
+searchFlags: 0
+rangeLower: 0
+rangeUpper: 10240
+schemaIdGuid:: r5M+d7TT1Eiz+QZFdgLT0A==
+showInAdvancedViewOnly: TRUE
+
+dn:
+changetype: modify
+add: schemaUpdateNow
+schemaUpdateNow: 1
+-
+
+dn: CN=ms-DFSR-LocalSettings,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: classSchema
+ldapDisplayName: msDFSR-LocalSettings
+adminDisplayName: ms-DFSR-LocalSettings
+adminDescription: DFSR settings applicable to local computer
+governsId: 1.2.840.113556.1.6.13.4.1
+objectClassCategory: 1
+rdnAttId: 2.5.4.3
+subClassOf: 2.5.6.0
+mayContain: 1.2.840.113556.1.6.13.3.2
+mayContain: 1.2.840.113556.1.6.13.3.17
+mayContain: 1.2.840.113556.1.6.13.3.16
+mayContain: 1.2.840.113556.1.6.13.3.1
+possSuperiors: 1.2.840.113556.1.3.30
+schemaIdGuid:: kcWF+n8ZfkeDvepaQ98iOQ==
+defaultSecurityDescriptor: D:(A;;RPLCLORC;;;AU)(A;;RPWPCRLCLOCCDCRCWDWOSDDTSW;;;DA)(A;;RPWPCRLCLOCCDCRCWDWOSDDTSW;;;CO)(A;;RPWPCRLCLOCCDCRCWDWOSDDTSW;;;SY)
+showInAdvancedViewOnly: TRUE
+defaultHidingValue: TRUE
+systemOnly: FALSE
+defaultObjectCategory: CN=ms-DFSR-LocalSettings,CN=Schema,CN=Configuration,DC=X
+
+dn: CN=NisMap,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: classSchema
+ldapDisplayName: nisMap
+adminDisplayName: nisMap
+adminDescription: A generic abstraction of a nis map
+governsId: 1.3.6.1.1.1.2.9
+objectClassCategory: 1
+rdnAttId: 2.5.4.3
+subClassOf: 2.5.6.0
+mustContain: 1.3.6.1.1.1.1.26
+mustContain: 2.5.4.3
+mayContain: 2.5.4.13
+possSuperiors: 2.5.6.5
+possSuperiors: 1.2.840.113556.1.3.23
+possSuperiors: 1.2.840.113556.1.5.67
+schemaIdGuid:: bGZydsECM0+ez/ZJwd2bfA==
+defaultSecurityDescriptor: D:(A;;RPWPCRCCDCLCLORCWOWDSDDTSW;;;DA)(A;;RPWPCRCCDCLCLORCWOWDSDDTSW;;;SY)(A;;RPLCLORC;;;AU)
+showInAdvancedViewOnly: TRUE
+defaultHidingValue: TRUE
+systemOnly: FALSE
+defaultObjectCategory: CN=NisMap,CN=Schema,CN=Configuration,DC=X
+
+dn: CN=IpProtocol,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: classSchema
+ldapDisplayName: ipProtocol
+adminDisplayName: ipProtocol
+adminDescription: Abstraction of an IP protocol
+governsId: 1.3.6.1.1.1.2.4
+objectClassCategory: 1
+rdnAttId: 2.5.4.3
+subClassOf: 2.5.6.0
+mustContain: 1.3.6.1.1.1.1.17
+mustContain: 2.5.4.3
+mayContain: 1.2.840.113556.1.6.18.1.323
+mayContain: 1.3.6.1.1.1.1.26
+mayContain: 1.2.840.113556.1.6.18.1.339
+mayContain: 1.2.840.113556.1.6.18.1.309
+mayContain: 2.5.4.13
+possSuperiors: 2.5.6.5
+possSuperiors: 1.2.840.113556.1.3.23
+possSuperiors: 1.3.6.1.1.1.2.9
+possSuperiors: 1.2.840.113556.1.5.67
+schemaIdGuid:: 0sstnPD7x02s4INW3NDwEw==
+defaultSecurityDescriptor: D:(A;;RPWPCRCCDCLCLORCWOWDSDDTSW;;;DA)(A;;RPWPCRCCDCLCLORCWOWDSDDTSW;;;SY)(A;;RPLCLORC;;;AU)
+showInAdvancedViewOnly: TRUE
+defaultHidingValue: TRUE
+systemOnly: FALSE
+defaultObjectCategory: CN=IpProtocol,CN=Schema,CN=Configuration,DC=X
+
+dn: CN=PosixGroup,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: classSchema
+ldapDisplayName: posixGroup
+adminDisplayName: posixGroup
+adminDescription: Abstraction of a group of acconts
+governsId: 1.3.6.1.1.1.2.2
+objectClassCategory: 3
+rdnAttId: 2.5.4.3
+subClassOf: 2.5.6.0
+mayContain: 1.3.6.1.1.1.1.12
+mayContain: 1.3.6.1.1.1.1.1
+mayContain: 2.5.4.13
+mayContain: 1.2.840.113556.1.4.1910
+mayContain: 2.5.4.35
+mayContain: 2.5.4.3
+schemaIdGuid:: uFCTKiwG0E6ZA93hDQbeug==
+defaultSecurityDescriptor: D:(A;;RPWPCRCCDCLCLORCWOWDSDDTSW;;;DA)(A;;RPWPCRCCDCLCLORCWOWDSDDTSW;;;SY)(A;;RPLCLORC;;;AU)
+showInAdvancedViewOnly: TRUE
+defaultHidingValue: TRUE
+systemOnly: FALSE
+defaultObjectCategory: CN=PosixGroup,CN=Schema,CN=Configuration,DC=X
+
+dn: CN=ms-DFSR-GlobalSettings,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: classSchema
+ldapDisplayName: msDFSR-GlobalSettings
+adminDisplayName: ms-DFSR-GlobalSettings
+adminDescription: Global settings applicable to all replication group members
+governsId: 1.2.840.113556.1.6.13.4.4
+objectClassCategory: 1
+rdnAttId: 2.5.4.3
+subClassOf: 2.5.6.0
+mayContain: 1.2.840.113556.1.6.13.3.2
+mayContain: 1.2.840.113556.1.6.13.3.17
+mayContain: 1.2.840.113556.1.6.13.3.16
+possSuperiors: 1.2.840.113556.1.3.23
+schemaIdGuid:: rds1e+yzakiq1C/snW6m9g==
+defaultSecurityDescriptor: D:(A;;RPLCLORC;;;AU)(A;;RPWPCRLCLOCCDCRCWDWOSDDTSW;;;DA)(A;;RPWPCRLCLOCCDCRCWDWOSDDTSW;;;CO)(A;;RPWPCRLCLOCCDCRCWDWOSDDTSW;;;SY)
+showInAdvancedViewOnly: TRUE
+defaultHidingValue: TRUE
+systemOnly: FALSE
+defaultObjectCategory: CN=ms-DFSR-GlobalSettings,CN=Schema,CN=Configuration,DC=X
+
+dn: CN=IEEE802Device,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: classSchema
+ldapDisplayName: ieee802Device
+adminDisplayName: ieee802Device
+adminDescription: A device with a MAC address
+governsId: 1.3.6.1.1.1.2.11
+objectClassCategory: 3
+rdnAttId: 2.5.4.3
+subClassOf: 2.5.6.0
+mayContain: 1.3.6.1.1.1.1.22
+mayContain: 2.5.4.3
+schemaIdGuid:: KeWZpjemfUug+13EZqC4pw==
+defaultSecurityDescriptor: D:(A;;RPWPCRCCDCLCLORCWOWDSDDTSW;;;DA)(A;;RPWPCRCCDCLCLORCWOWDSDDTSW;;;SY)(A;;RPLCLORC;;;AU)
+showInAdvancedViewOnly: TRUE
+defaultHidingValue: TRUE
+systemOnly: FALSE
+defaultObjectCategory: CN=IEEE802Device,CN=Schema,CN=Configuration,DC=X
+
+dn: CN=msSFU-30-Net-Id,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: classSchema
+ldapDisplayName: msSFU30NetId
+adminDisplayName: msSFU-30-Net-Id
+adminDescription: stores the netword ID
+governsId: 1.2.840.113556.1.6.18.2.212
+objectClassCategory: 1
+rdnAttId: 2.5.4.3
+subClassOf: 2.5.6.0
+mayContain: 1.3.6.1.1.1.1.26
+mayContain: 1.2.840.113556.1.6.18.1.339
+mayContain: 1.2.840.113556.1.6.18.1.309
+mayContain: 1.2.840.113556.1.6.18.1.324
+possSuperiors: 1.2.840.113556.1.3.23
+possSuperiors: 1.3.6.1.1.1.2.9
+possSuperiors: 1.2.840.113556.1.5.67
+schemaIdGuid:: LBlj4gIq30iXkpTyMoeBoA==
+defaultSecurityDescriptor: D:(A;;RPWPCRCCDCLCLORCWOWDSDDTSW;;;DA)(A;;RPWPCRCCDCLCLORCWOWDSDDTSW;;;SY)(A;;RPLCLORC;;;AU)
+showInAdvancedViewOnly: TRUE
+defaultHidingValue: TRUE
+systemOnly: FALSE
+defaultObjectCategory: CN=msSFU-30-Net-Id,CN=Schema,CN=Configuration,DC=X
+
+dn: CN=NisNetgroup,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: classSchema
+ldapDisplayName: nisNetgroup
+adminDisplayName: nisNetgroup
+adminDescription: Abstraction of a netgroup. May refer to other netgroups
+governsId: 1.3.6.1.1.1.2.8
+objectClassCategory: 1
+rdnAttId: 2.5.4.3
+subClassOf: 2.5.6.0
+mustContain: 2.5.4.3
+mayContain: 1.2.840.113556.1.6.18.1.349
+mayContain: 1.2.840.113556.1.6.18.1.348
+mayContain: 1.3.6.1.1.1.1.26
+mayContain: 1.2.840.113556.1.6.18.1.339
+mayContain: 1.2.840.113556.1.6.18.1.309
+mayContain: 1.3.6.1.1.1.1.14
+mayContain: 1.3.6.1.1.1.1.13
+mayContain: 2.5.4.13
+possSuperiors: 2.5.6.5
+possSuperiors: 1.2.840.113556.1.3.23
+possSuperiors: 1.3.6.1.1.1.2.9
+possSuperiors: 1.2.840.113556.1.5.67
+schemaIdGuid:: hL/vcntuXEqo24p1p8rSVA==
+defaultSecurityDescriptor: D:(A;;RPWPCRCCDCLCLORCWOWDSDDTSW;;;DA)(A;;RPWPCRCCDCLCLORCWOWDSDDTSW;;;SY)(A;;RPLCLORC;;;AU)
+showInAdvancedViewOnly: TRUE
+defaultHidingValue: TRUE
+systemOnly: FALSE
+defaultObjectCategory: CN=NisNetgroup,CN=Schema,CN=Configuration,DC=X
+
+dn: CN=ms-DFSR-ReplicationGroup,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: classSchema
+ldapDisplayName: msDFSR-ReplicationGroup
+adminDisplayName: ms-DFSR-ReplicationGroup
+adminDescription: Replication Group container
+governsId: 1.2.840.113556.1.6.13.4.5
+objectClassCategory: 1
+rdnAttId: 2.5.4.3
+subClassOf: 2.5.6.0
+mustContain: 1.2.840.113556.1.6.13.3.10
+mayContain: 1.2.840.113556.1.6.13.3.1
+mayContain: 1.2.840.113556.1.6.13.3.14
+mayContain: 1.2.840.113556.1.6.13.3.2
+mayContain: 1.2.840.113556.1.6.13.3.17
+mayContain: 1.2.840.113556.1.6.13.3.16
+mayContain: 1.2.840.113556.1.6.13.3.11
+mayContain: 2.5.4.13
+possSuperiors: 1.2.840.113556.1.6.13.4.4
+schemaIdGuid:: 4C8zHCoMMk+vyiPF5Fqedw==
+defaultSecurityDescriptor: D:(A;;RPLCLORC;;;AU)(A;;RPWPCRLCLOCCDCRCWDWOSDDTSW;;;DA)(A;;RPWPCRLCLOCCDCRCWDWOSDDTSW;;;CO)(A;;RPWPCRLCLOCCDCRCWDWOSDDTSW;;;SY)
+showInAdvancedViewOnly: TRUE
+defaultHidingValue: TRUE
+systemOnly: FALSE
+defaultObjectCategory: CN=ms-DFSR-ReplicationGroup,CN=Schema,CN=Configuration,DC=X
+
+dn: CN=ms-DFSR-Topology,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: classSchema
+ldapDisplayName: msDFSR-Topology
+adminDisplayName: ms-DFSR-Topology
+adminDescription: Container for objects that form the replication topology
+governsId: 1.2.840.113556.1.6.13.4.8
+objectClassCategory: 1
+rdnAttId: 2.5.4.3
+subClassOf: 2.5.6.0
+mayContain: 1.2.840.113556.1.6.13.3.2
+mayContain: 1.2.840.113556.1.6.13.3.17
+mayContain: 1.2.840.113556.1.6.13.3.16
+possSuperiors: 1.2.840.113556.1.6.13.4.5
+schemaIdGuid:: qYqCBEJugE65YuL+AHVNFw==
+defaultSecurityDescriptor: D:(A;;RPLCLORC;;;AU)(A;;RPWPCRLCLOCCDCRCWDWOSDDTSW;;;DA)(A;;RPWPCRLCLOCCDCRCWDWOSDDTSW;;;CO)(A;;RPWPCRLCLOCCDCRCWDWOSDDTSW;;;SY)
+showInAdvancedViewOnly: TRUE
+defaultHidingValue: TRUE
+systemOnly: FALSE
+defaultObjectCategory: CN=ms-DFSR-Topology,CN=Schema,CN=Configuration,DC=X
+
+dn: CN=PosixAccount,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: classSchema
+ldapDisplayName: posixAccount
+adminDisplayName: posixAccount
+adminDescription: Abstraction of an account with posix attributes
+governsId: 1.3.6.1.1.1.2.0
+objectClassCategory: 3
+rdnAttId: 0.9.2342.19200300.100.1.1
+subClassOf: 2.5.6.0
+mayContain: 2.5.4.13
+mayContain: 1.3.6.1.1.1.1.2
+mayContain: 1.3.6.1.1.1.1.4
+mayContain: 1.2.840.113556.1.4.1910
+mayContain: 2.5.4.35
+mayContain: 1.2.840.113556.1.4.44
+mayContain: 1.3.6.1.1.1.1.3
+mayContain: 1.3.6.1.1.1.1.1
+mayContain: 1.3.6.1.1.1.1.0
+mayContain: 2.5.4.3
+mayContain: 0.9.2342.19200300.100.1.1
+schemaIdGuid:: QbtErdVniE21dXsgZ0522A==
+defaultSecurityDescriptor: D:(A;;RPWPCRCCDCLCLORCWOWDSDDTSW;;;DA)(A;;RPWPCRCCDCLCLORCWOWDSDDTSW;;;SY)(A;;RPLCLORC;;;AU)
+showInAdvancedViewOnly: TRUE
+defaultHidingValue: TRUE
+systemOnly: FALSE
+defaultObjectCategory: CN=PosixAccount,CN=Schema,CN=Configuration,DC=X
+
+dn: CN=ShadowAccount,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: classSchema
+ldapDisplayName: shadowAccount
+adminDisplayName: shadowAccount
+adminDescription: Additional attributes for shadow passwords
+governsId: 1.3.6.1.1.1.2.1
+objectClassCategory: 3
+rdnAttId: 0.9.2342.19200300.100.1.1
+subClassOf: 2.5.6.0
+mayContain: 1.3.6.1.1.1.1.11
+mayContain: 1.3.6.1.1.1.1.10
+mayContain: 1.3.6.1.1.1.1.9
+mayContain: 1.3.6.1.1.1.1.8
+mayContain: 1.3.6.1.1.1.1.7
+mayContain: 1.3.6.1.1.1.1.6
+mayContain: 1.3.6.1.1.1.1.5
+mayContain: 2.5.4.13
+mayContain: 2.5.4.35
+mayContain: 0.9.2342.19200300.100.1.1
+schemaIdGuid:: Z4RtWxgadEGzUJzG57SsjQ==
+defaultSecurityDescriptor: D:(A;;RPWPCRCCDCLCLORCWOWDSDDTSW;;;DA)(A;;RPWPCRCCDCLCLORCWOWDSDDTSW;;;SY)(A;;RPLCLORC;;;AU)
+showInAdvancedViewOnly: TRUE
+defaultHidingValue: TRUE
+systemOnly: FALSE
+defaultObjectCategory: CN=ShadowAccount,CN=Schema,CN=Configuration,DC=X
+
+dn: CN=ms-DFSR-Content,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: classSchema
+ldapDisplayName: msDFSR-Content
+adminDisplayName: ms-DFSR-Content
+adminDescription: Container for DFSR-ContentSet objects
+governsId: 1.2.840.113556.1.6.13.4.6
+objectClassCategory: 1
+rdnAttId: 2.5.4.3
+subClassOf: 2.5.6.0
+mayContain: 1.2.840.113556.1.6.13.3.2
+mayContain: 1.2.840.113556.1.6.13.3.17
+mayContain: 1.2.840.113556.1.6.13.3.16
+possSuperiors: 1.2.840.113556.1.6.13.4.5
+schemaIdGuid:: NZt1ZKHT5EK18aPeFiEJsw==
+defaultSecurityDescriptor: D:(A;;RPLCLORC;;;AU)(A;;RPWPCRLCLOCCDCRCWDWOSDDTSW;;;DA)(A;;RPWPCRLCLOCCDCRCWDWOSDDTSW;;;CO)(A;;RPWPCRLCLOCCDCRCWDWOSDDTSW;;;SY)
+showInAdvancedViewOnly: TRUE
+defaultHidingValue: TRUE
+systemOnly: FALSE
+defaultObjectCategory: CN=ms-DFSR-Content,CN=Schema,CN=Configuration,DC=X
+
+dn: CN=BootableDevice,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: classSchema
+ldapDisplayName: bootableDevice
+adminDisplayName: bootableDevice
+adminDescription: A device with boot parameters
+governsId: 1.3.6.1.1.1.2.12
+objectClassCategory: 3
+rdnAttId: 2.5.4.3
+subClassOf: 2.5.6.0
+mayContain: 1.3.6.1.1.1.1.24
+mayContain: 1.3.6.1.1.1.1.23
+mayContain: 2.5.4.3
+schemaIdGuid:: dyTLS7NLRUWp/Ptm4Ta0NQ==
+defaultSecurityDescriptor: D:(A;;RPWPCRCCDCLCLORCWOWDSDDTSW;;;DA)(A;;RPWPCRCCDCLCLORCWOWDSDDTSW;;;SY)(A;;RPLCLORC;;;AU)
+showInAdvancedViewOnly: TRUE
+defaultHidingValue: TRUE
+systemOnly: FALSE
+defaultObjectCategory: CN=BootableDevice,CN=Schema,CN=Configuration,DC=X
+
+dn: CN=ms-Print-ConnectionPolicy,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: classSchema
+ldapDisplayName: msPrint-ConnectionPolicy
+adminDisplayName: ms-Print-ConnectionPolicy
+adminDescription: Pushed Printer Connection Policy1
+governsId: 1.2.840.113556.1.6.23.2
+objectClassCategory: 1
+rdnAttId: 2.5.4.3
+subClassOf: 2.5.6.0
+mustContain: 2.5.4.3
+mayContain: 1.2.840.113556.1.4.137
+mayContain: 1.2.840.113556.1.4.223
+mayContain: 1.2.840.113556.1.4.247
+mayContain: 1.2.840.113556.1.4.300
+possSuperiors: 1.2.840.113556.1.3.23
+schemaIdGuid:: xzNvodZ/KEiTZENROP2gjQ==
+defaultSecurityDescriptor: D:(A;;RPWPCRCCDCLCLORCWOWDSDDTSW;;;DA)(A;;RPWPCRCCDCLCLORCWOWDSDDTSW;;;SY)(A;;RPLCLORC;;;AU)
+showInAdvancedViewOnly: TRUE
+defaultHidingValue: TRUE
+systemOnly: FALSE
+defaultObjectCategory: CN=ms-Print-ConnectionPolicy,CN=Schema,CN=Configuration,DC=X
+
+dn: CN=ms-DFSR-Member,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: classSchema
+ldapDisplayName: msDFSR-Member
+adminDisplayName: ms-DFSR-Member
+adminDescription: Replication group member
+governsId: 1.2.840.113556.1.6.13.4.9
+objectClassCategory: 1
+rdnAttId: 2.5.4.3
+subClassOf: 2.5.6.0
+mustContain: 1.2.840.113556.1.6.13.3.101
+mayContain: 1.2.840.113556.1.6.13.3.2
+mayContain: 1.2.840.113556.1.6.13.3.17
+mayContain: 1.2.840.113556.1.6.13.3.16
+mayContain: 1.2.840.113556.1.6.13.3.15
+mayContain: 1.2.840.113556.1.4.515
+possSuperiors: 1.2.840.113556.1.6.13.4.8
+schemaIdGuid:: l8gpQhHCfEOlrtv3BbaW5Q==
+defaultSecurityDescriptor: D:(A;;RPLCLORC;;;AU)(A;;RPWPCRLCLOCCDCRCWDWOSDDTSW;;;DA)(A;;RPWPCRLCLOCCDCRCWDWOSDDTSW;;;CO)(A;;RPWPCRLCLOCCDCRCWDWOSDDTSW;;;SY)
+showInAdvancedViewOnly: TRUE
+defaultHidingValue: TRUE
+systemOnly: FALSE
+defaultObjectCategory: CN=ms-DFSR-Member,CN=Schema,CN=Configuration,DC=X
+
+dn: CN=OncRpc,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: classSchema
+ldapDisplayName: oncRpc
+adminDisplayName: oncRpc
+adminDescription: Abstraction of an Open Network Computing (ONC) [RFC1057] Remote Procedure Call (RPC) binding
+governsId: 1.3.6.1.1.1.2.5
+objectClassCategory: 1
+rdnAttId: 2.5.4.3
+subClassOf: 2.5.6.0
+mustContain: 1.3.6.1.1.1.1.18
+mustContain: 2.5.4.3
+mayContain: 1.2.840.113556.1.6.18.1.323
+mayContain: 1.3.6.1.1.1.1.26
+mayContain: 1.2.840.113556.1.6.18.1.339
+mayContain: 1.2.840.113556.1.6.18.1.309
+mayContain: 2.5.4.13
+possSuperiors: 2.5.6.5
+possSuperiors: 1.2.840.113556.1.3.23
+possSuperiors: 1.3.6.1.1.1.2.9
+possSuperiors: 1.2.840.113556.1.5.67
+schemaIdGuid:: Xh7dyvz+P0+1qXDplCBDAw==
+defaultSecurityDescriptor: D:(A;;RPWPCRCCDCLCLORCWOWDSDDTSW;;;DA)(A;;RPWPCRCCDCLCLORCWOWDSDDTSW;;;SY)(A;;RPLCLORC;;;AU)
+showInAdvancedViewOnly: TRUE
+defaultHidingValue: TRUE
+systemOnly: FALSE
+defaultObjectCategory: CN=OncRpc,CN=Schema,CN=Configuration,DC=X
+
+dn: CN=IpHost,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: classSchema
+ldapDisplayName: ipHost
+adminDisplayName: ipHost
+adminDescription: Abstraction of a host, an IP device.
+governsId: 1.3.6.1.1.1.2.6
+objectClassCategory: 3
+rdnAttId: 2.5.4.3
+subClassOf: 2.5.6.0
+mayContain: 2.5.4.7
+mayContain: 0.9.2342.19200300.100.1.1
+mayContain: 1.3.6.1.1.1.1.19
+mayContain: 2.5.4.13
+mayContain: 2.5.4.3
+mayContain: 0.9.2342.19200300.100.1.10
+schemaIdGuid:: RhaRqyeIlU+HgFqPAI62jw==
+defaultSecurityDescriptor: D:(A;;RPWPCRCCDCLCLORCWOWDSDDTSW;;;DA)(A;;RPWPCRCCDCLCLORCWOWDSDDTSW;;;SY)(A;;RPLCLORC;;;AU)
+showInAdvancedViewOnly: TRUE
+defaultHidingValue: TRUE
+systemOnly: FALSE
+defaultObjectCategory: CN=IpHost,CN=Schema,CN=Configuration,DC=X
+
+dn: CN=msSFU-30-Domain-Info,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: classSchema
+ldapDisplayName: msSFU30DomainInfo
+adminDisplayName: msSFU-30-Domain-Info
+adminDescription: Represents an internal data structure used by Server for NIS.
+governsId: 1.2.840.113556.1.6.18.2.215
+objectClassCategory: 1
+rdnAttId: 2.5.4.3
+subClassOf: 2.5.6.0
+mayContain: 1.2.840.113556.1.6.18.1.352
+mayContain: 1.2.840.113556.1.6.18.1.343
+mayContain: 1.2.840.113556.1.6.18.1.342
+mayContain: 1.2.840.113556.1.6.18.1.308
+mayContain: 1.2.840.113556.1.6.18.1.307
+mayContain: 1.2.840.113556.1.6.18.1.350
+mayContain: 1.2.840.113556.1.6.18.1.300
+mayContain: 1.2.840.113556.1.6.18.1.341
+mayContain: 1.2.840.113556.1.6.18.1.340
+possSuperiors: 1.2.840.113556.1.3.23
+schemaIdGuid:: zn0pNmtlI0SrZdq7J3CBng==
+defaultSecurityDescriptor: D:(A;;RPWPCRCCDCLCLORCWOWDSDDTSW;;;DA)(A;;RPWPCRCCDCLCLORCWOWDSDDTSW;;;SY)(A;;RPLCLORC;;;AU)
+showInAdvancedViewOnly: TRUE
+defaultHidingValue: TRUE
+systemOnly: FALSE
+defaultObjectCategory: CN=msSFU-30-Domain-Info,CN=Schema,CN=Configuration,DC=X
+
+dn: CN=ms-DFSR-Connection,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: classSchema
+ldapDisplayName: msDFSR-Connection
+adminDisplayName: ms-DFSR-Connection
+adminDescription: Directional connection between two members
+governsId: 1.2.840.113556.1.6.13.4.10
+objectClassCategory: 1
+rdnAttId: 2.5.4.3
+subClassOf: 2.5.6.0
+mustContain: 1.2.840.113556.1.4.40
+mayContain: 1.2.840.113556.1.6.13.3.2
+mayContain: 1.2.840.113556.1.6.13.3.17
+mayContain: 1.2.840.113556.1.6.13.3.16
+mayContain: 1.2.840.113556.1.6.13.3.14
+mayContain: 1.2.840.113556.1.6.13.3.15
+mayContain: 1.2.840.113556.1.6.13.3.20
+mayContain: 1.2.840.113556.1.6.13.3.19
+mayContain: 1.2.840.113556.1.6.13.3.9
+possSuperiors: 1.2.840.113556.1.6.13.4.9
+schemaIdGuid:: LpeP5bVk70aNi7vD4Yl+qw==
+defaultSecurityDescriptor: D:(A;;RPLCLORC;;;AU)(A;;RPWPCRLCLOCCDCRCWDWOSDDTSW;;;DA)(A;;RPWPCRLCLOCCDCRCWDWOSDDTSW;;;CO)(A;;RPWPCRLCLOCCDCRCWDWOSDDTSW;;;SY)
+showInAdvancedViewOnly: TRUE
+defaultHidingValue: TRUE
+systemOnly: FALSE
+defaultObjectCategory: CN=ms-DFSR-Connection,CN=Schema,CN=Configuration,DC=X
+
+dn: CN=ms-DFSR-Subscriber,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: classSchema
+ldapDisplayName: msDFSR-Subscriber
+adminDisplayName: ms-DFSR-Subscriber
+adminDescription: Represents local computer membership of a replication group
+governsId: 1.2.840.113556.1.6.13.4.2
+objectClassCategory: 1
+rdnAttId: 2.5.4.3
+subClassOf: 2.5.6.0
+mustContain: 1.2.840.113556.1.6.13.3.23
+mustContain: 1.2.840.113556.1.6.13.3.100
+mayContain: 1.2.840.113556.1.6.13.3.2
+mayContain: 1.2.840.113556.1.6.13.3.17
+mayContain: 1.2.840.113556.1.6.13.3.16
+possSuperiors: 1.2.840.113556.1.6.13.4.1
+schemaIdGuid:: 1wUV4cSS50O/XClYMv/Ilg==
+defaultSecurityDescriptor: D:(A;;RPLCLORC;;;AU)(A;;RPWPCRLCLOCCDCRCWDWOSDDTSW;;;DA)(A;;RPWPCRLCLOCCDCRCWDWOSDDTSW;;;CO)(A;;RPWPCRLCLOCCDCRCWDWOSDDTSW;;;SY)
+showInAdvancedViewOnly: TRUE
+defaultHidingValue: TRUE
+systemOnly: FALSE
+defaultObjectCategory: CN=ms-DFSR-Subscriber,CN=Schema,CN=Configuration,DC=X
+
+dn: CN=ms-DFSR-ContentSet,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: classSchema
+ldapDisplayName: msDFSR-ContentSet
+adminDisplayName: ms-DFSR-ContentSet
+adminDescription: DFSR Content Set
+governsId: 1.2.840.113556.1.6.13.4.7
+objectClassCategory: 1
+rdnAttId: 2.5.4.3
+subClassOf: 2.5.6.0
+mayContain: 1.2.840.113556.1.6.13.3.2
+mayContain: 1.2.840.113556.1.6.13.3.17
+mayContain: 1.2.840.113556.1.6.13.3.16
+mayContain: 1.2.840.113556.1.6.13.3.13
+mayContain: 1.2.840.113556.1.6.13.3.12
+mayContain: 1.2.840.113556.1.6.13.3.21
+mayContain: 2.5.4.13
+possSuperiors: 1.2.840.113556.1.6.13.4.6
+schemaIdGuid:: DfQ3SdymSE2Xygbl+/0/Fg==
+defaultSecurityDescriptor: D:(A;;RPLCLORC;;;AU)(A;;RPWPCRLCLOCCDCRCWDWOSDDTSW;;;DA)(A;;RPWPCRLCLOCCDCRCWDWOSDDTSW;;;CO)(A;;RPWPCRLCLOCCDCRCWDWOSDDTSW;;;SY)
+showInAdvancedViewOnly: TRUE
+defaultHidingValue: TRUE
+systemOnly: FALSE
+defaultObjectCategory: CN=ms-DFSR-ContentSet,CN=Schema,CN=Configuration,DC=X
+
+dn: CN=msSFU-30-Mail-Aliases,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: classSchema
+ldapDisplayName: msSFU30MailAliases
+adminDisplayName: msSFU-30-Mail-Aliases
+adminDescription: represents UNIX mail file data
+governsId: 1.2.840.113556.1.6.18.2.211
+objectClassCategory: 1
+rdnAttId: 2.5.4.3
+subClassOf: 2.5.6.0
+mayContain: 1.3.6.1.1.1.1.26
+mayContain: 1.2.840.113556.1.6.18.1.323
+mayContain: 1.2.840.113556.1.6.18.1.339
+mayContain: 1.2.840.113556.1.6.18.1.309
+possSuperiors: 1.2.840.113556.1.3.23
+possSuperiors: 1.3.6.1.1.1.2.9
+possSuperiors: 1.2.840.113556.1.5.67
+schemaIdGuid:: hQdx1v+Gt0SFtfH4aJUizg==
+defaultSecurityDescriptor: D:(A;;RPWPCRCCDCLCLORCWOWDSDDTSW;;;DA)(A;;RPWPCRCCDCLCLORCWOWDSDDTSW;;;SY)(A;;RPLCLORC;;;AU)
+showInAdvancedViewOnly: TRUE
+defaultHidingValue: TRUE
+systemOnly: FALSE
+defaultObjectCategory: CN=msSFU-30-Mail-Aliases,CN=Schema,CN=Configuration,DC=X
+
+dn: CN=msSFU-30-Network-User,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: classSchema
+ldapDisplayName: msSFU30NetworkUser
+adminDisplayName: msSFU-30-Network-User
+adminDescription: represents network file data
+governsId: 1.2.840.113556.1.6.18.2.216
+objectClassCategory: 1
+rdnAttId: 2.5.4.3
+subClassOf: 2.5.6.0
+mayContain: 1.3.6.1.1.1.1.26
+mayContain: 1.2.840.113556.1.6.18.1.339
+mayContain: 1.2.840.113556.1.6.18.1.309
+mayContain: 1.2.840.113556.1.6.18.1.324
+possSuperiors: 1.2.840.113556.1.3.23
+possSuperiors: 1.3.6.1.1.1.2.9
+possSuperiors: 1.2.840.113556.1.5.67
+schemaIdGuid:: ozRT4fALJ0S2chH12ErMkg==
+defaultSecurityDescriptor: D:(A;;RPWPCRCCDCLCLORCWOWDSDDTSW;;;DA)(A;;RPWPCRCCDCLCLORCWOWDSDDTSW;;;SY)(A;;RPLCLORC;;;AU)
+showInAdvancedViewOnly: TRUE
+defaultHidingValue: TRUE
+systemOnly: FALSE
+defaultObjectCategory: CN=msSFU-30-Network-User,CN=Schema,CN=Configuration,DC=X
+
+dn: CN=msSFU-30-NIS-Map-Config,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: classSchema
+ldapDisplayName: msSFU30NISMapConfig
+adminDisplayName: msSFU-30-NIS-Map-Config
+adminDescription: represents an internal Data Structure used by Server for NIS
+governsId: 1.2.840.113556.1.6.18.2.217
+objectClassCategory: 1
+rdnAttId: 2.5.4.3
+subClassOf: 2.5.6.0
+mayContain: 1.2.840.113556.1.6.18.1.306
+mayContain: 1.2.840.113556.1.6.18.1.305
+mayContain: 1.2.840.113556.1.6.18.1.304
+mayContain: 1.2.840.113556.1.6.18.1.303
+mayContain: 1.2.840.113556.1.6.18.1.345
+mayContain: 1.2.840.113556.1.6.18.1.302
+mayContain: 1.2.840.113556.1.6.18.1.301
+possSuperiors: 1.2.840.113556.1.3.23
+schemaIdGuid:: 0DP3+uv4z02NdfF1OvalCw==
+defaultSecurityDescriptor: D:(A;;RPWPCRCCDCLCLORCWOWDSDDTSW;;;DA)(A;;RPWPCRCCDCLCLORCWOWDSDDTSW;;;SY)(A;;RPLCLORC;;;AU)
+showInAdvancedViewOnly: TRUE
+defaultHidingValue: TRUE
+systemOnly: FALSE
+defaultObjectCategory: CN=msSFU-30-NIS-Map-Config,CN=Schema,CN=Configuration,DC=X
+
+dn: CN=ms-DFSR-Subscription,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: classSchema
+ldapDisplayName: msDFSR-Subscription
+adminDisplayName: ms-DFSR-Subscription
+adminDescription: Represents local computer participation of a content set
+governsId: 1.2.840.113556.1.6.13.4.3
+objectClassCategory: 1
+rdnAttId: 2.5.4.3
+subClassOf: 2.5.6.0
+mustContain: 1.2.840.113556.1.6.13.3.23
+mustContain: 1.2.840.113556.1.6.13.3.18
+mayContain: 1.2.840.113556.1.6.13.3.2
+mayContain: 1.2.840.113556.1.6.13.3.17
+mayContain: 1.2.840.113556.1.6.13.3.16
+mayContain: 1.2.840.113556.1.6.13.3.24
+mayContain: 1.2.840.113556.1.6.13.3.22
+mayContain: 1.2.840.113556.1.6.13.3.9
+mayContain: 1.2.840.113556.1.6.13.3.8
+mayContain: 1.2.840.113556.1.6.13.3.7
+mayContain: 1.2.840.113556.1.6.13.3.6
+mayContain: 1.2.840.113556.1.6.13.3.5
+mayContain: 1.2.840.113556.1.6.13.3.4
+mayContain: 1.2.840.113556.1.6.13.3.3
+possSuperiors: 1.2.840.113556.1.6.13.4.2
+schemaIdGuid:: FCQhZ8x7CUaH4AiNrYq97g==
+defaultSecurityDescriptor: D:(A;;RPLCLORC;;;AU)(A;;RPWPCRLCLOCCDCRCWDWOSDDTSW;;;DA)(A;;RPWPCRLCLOCCDCRCWDWOSDDTSW;;;CO)(A;;RPWPCRLCLOCCDCRCWDWOSDDTSW;;;SY)
+showInAdvancedViewOnly: TRUE
+defaultHidingValue: TRUE
+systemOnly: FALSE
+defaultObjectCategory: CN=ms-DFSR-Subscription,CN=Schema,CN=Configuration,DC=X
+
+dn: CN=NisObject,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: classSchema
+ldapDisplayName: nisObject
+adminDisplayName: nisObject
+adminDescription: An entry in a NIS map
+governsId: 1.3.6.1.1.1.2.10
+objectClassCategory: 1
+rdnAttId: 2.5.4.3
+subClassOf: 2.5.6.0
+mustContain: 1.3.6.1.1.1.1.27
+mustContain: 1.3.6.1.1.1.1.26
+mustContain: 2.5.4.3
+mayContain: 1.2.840.113556.1.6.18.1.339
+mayContain: 1.2.840.113556.1.6.18.1.309
+mayContain: 2.5.4.13
+possSuperiors: 2.5.6.5
+possSuperiors: 1.2.840.113556.1.3.23
+possSuperiors: 1.3.6.1.1.1.2.9
+possSuperiors: 1.2.840.113556.1.5.67
+schemaIdGuid:: k4pPkFRJX0yx4VPAl6MeEw==
+defaultSecurityDescriptor: D:(A;;RPWPCRCCDCLCLORCWOWDSDDTSW;;;DA)(A;;RPWPCRCCDCLCLORCWOWDSDDTSW;;;SY)(A;;RPLCLORC;;;AU)
+showInAdvancedViewOnly: TRUE
+defaultHidingValue: TRUE
+systemOnly: FALSE
+defaultObjectCategory: CN=NisObject,CN=Schema,CN=Configuration,DC=X
+
+dn: CN=IpService,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: classSchema
+ldapDisplayName: ipService
+adminDisplayName: ipService
+adminDescription: Abstraction of an Internet Protocol service.
+governsId: 1.3.6.1.1.1.2.3
+objectClassCategory: 1
+rdnAttId: 2.5.4.3
+subClassOf: 2.5.6.0
+mustContain: 2.5.4.3
+mustContain: 1.3.6.1.1.1.1.15
+mustContain: 1.3.6.1.1.1.1.16
+mayContain: 1.3.6.1.1.1.1.26
+mayContain: 1.2.840.113556.1.6.18.1.323
+mayContain: 1.2.840.113556.1.6.18.1.339
+mayContain: 1.2.840.113556.1.6.18.1.309
+mayContain: 2.5.4.13
+possSuperiors: 2.5.6.5
+possSuperiors: 1.2.840.113556.1.3.23
+possSuperiors: 1.3.6.1.1.1.2.9
+possSuperiors: 1.2.840.113556.1.5.67
+schemaIdGuid:: 3/oXJZf6rUid5nmsVyH4ZA==
+defaultSecurityDescriptor: D:(A;;RPWPCRCCDCLCLORCWOWDSDDTSW;;;DA)(A;;RPWPCRCCDCLCLORCWOWDSDDTSW;;;SY)(A;;RPLCLORC;;;AU)
+showInAdvancedViewOnly: TRUE
+defaultHidingValue: TRUE
+systemOnly: FALSE
+defaultObjectCategory: CN=IpService,CN=Schema,CN=Configuration,DC=X
+
+dn: CN=IpNetwork,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaAdd
+objectClass: classSchema
+ldapDisplayName: ipNetwork
+adminDisplayName: ipNetwork
+adminDescription: Abstraction of a network. The distinguished value of the cn attribute denotes the network's cannonical name
+governsId: 1.3.6.1.1.1.2.7
+objectClassCategory: 1
+rdnAttId: 2.5.4.3
+subClassOf: 2.5.6.0
+mustContain: 1.3.6.1.1.1.1.20
+mustContain: 2.5.4.3
+mayContain: 1.2.840.113556.1.6.18.1.323
+mayContain: 1.3.6.1.1.1.1.26
+mayContain: 1.2.840.113556.1.6.18.1.339
+mayContain: 1.2.840.113556.1.6.18.1.309
+mayContain: 2.5.4.7
+mayContain: 0.9.2342.19200300.100.1.1
+mayContain: 1.3.6.1.1.1.1.21
+mayContain: 2.5.4.13
+mayContain: 0.9.2342.19200300.100.1.10
+possSuperiors: 2.5.6.5
+possSuperiors: 1.2.840.113556.1.3.23
+possSuperiors: 1.3.6.1.1.1.2.9
+possSuperiors: 1.2.840.113556.1.5.67
+schemaIdGuid:: wzZY2T4U+0OZKrBX8eyt+Q==
+defaultSecurityDescriptor: D:(A;;RPWPCRCCDCLCLORCWOWDSDDTSW;;;DA)(A;;RPWPCRCCDCLCLORCWOWDSDDTSW;;;SY)(A;;RPLCLORC;;;AU)
+showInAdvancedViewOnly: TRUE
+defaultHidingValue: TRUE
+systemOnly: FALSE
+defaultObjectCategory: CN=IpNetwork,CN=Schema,CN=Configuration,DC=X
+
+dn: CN=Top,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaModify
+add: mayContain
+mayContain: 1.2.840.113556.1.6.13.3.102
+-
+
+dn: CN=Top,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaModify
+add: mayContain
+mayContain: 1.2.840.113556.1.6.13.3.103
+-
+
+dn: CN=Top,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaModify
+add: mayContain
+mayContain: 1.2.840.113556.1.6.18.1.347
+-
+
+dn: CN=Group,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaModify
+add: mayContain
+mayContain: 1.2.840.113556.1.6.18.1.346
+-
+
+dn: CN=Group,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaModify
+add: mayContain
+mayContain: 1.2.840.113556.1.6.18.1.339
+-
+
+dn: CN=Group,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaModify
+add: mayContain
+mayContain: 1.2.840.113556.1.6.18.1.309
+-
+
+dn: CN=Group,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaModify
+add: auxiliaryClass
+auxiliaryClass: 1.3.6.1.1.1.2.2
+-
+
+dn: CN=User,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaModify
+add: mayContain
+mayContain: 1.2.840.113556.1.4.1879
+-
+
+dn: CN=User,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaModify
+add: mayContain
+mayContain: 1.2.840.113556.1.6.18.1.309
+-
+
+dn: CN=User,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaModify
+add: mayContain
+mayContain: 1.2.840.113556.1.6.18.1.339
+-
+
+dn: CN=User,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaModify
+add: auxiliaryClass
+auxiliaryClass: 1.3.6.1.1.1.2.0
+-
+
+dn: CN=User,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaModify
+add: auxiliaryClass
+auxiliaryClass: 1.3.6.1.1.1.2.1
+-
+
+dn: CN=Device,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaModify
+add: mayContain
+mayContain: 1.2.840.113556.1.6.18.1.323
+-
+
+dn: CN=Device,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaModify
+add: mayContain
+mayContain: 1.3.6.1.1.1.1.26
+-
+
+dn: CN=Device,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaModify
+add: mayContain
+mayContain: 1.2.840.113556.1.6.18.1.339
+-
+
+dn: CN=Device,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaModify
+add: mayContain
+mayContain: 1.2.840.113556.1.6.18.1.309
+-
+
+dn: CN=Device,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaModify
+add: auxiliaryClass
+auxiliaryClass: 1.3.6.1.1.1.2.12
+-
+
+dn: CN=Device,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaModify
+add: auxiliaryClass
+auxiliaryClass: 1.3.6.1.1.1.2.11
+-
+
+dn: CN=Device,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaModify
+add: auxiliaryClass
+auxiliaryClass: 1.3.6.1.1.1.2.6
+-
+
+dn: CN=Device,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaModify
+add: systemPossSuperiors
+systemPossSuperiors: 1.2.840.113556.1.5.67
+-
+
+dn: CN=Computer,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaModify
+add: mayContain
+mayContain: 1.2.840.113556.1.6.18.1.309
+-
+
+dn: CN=Computer,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaModify
+add: mayContain
+mayContain: 1.3.6.1.1.1.1.26
+-
+
+dn: CN=Computer,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaModify
+add: mayContain
+mayContain: 1.2.840.113556.1.6.18.1.339
+-
+
+dn: CN=Computer,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaModify
+add: mayContain
+mayContain: 1.2.840.113556.1.6.18.1.323
+-
+
+dn: CN=Computer,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaModify
+add: auxiliaryClass
+auxiliaryClass: 1.3.6.1.1.1.2.6
+-
+
+dn: CN=Contact,CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaModify
+add: mayContain
+mayContain: 1.2.840.113556.1.4.1879
+-
+
+
+dn:
+changetype: modify
+add: schemaUpdateNow
+schemaUpdateNow: 1
+-
+
+# Increase object version
+
+dn: CN=Schema,CN=Configuration,DC=X
+changetype: ntdsSchemaModify
+replace: objectVersion
+objectVersion: 31
+-
+
+
