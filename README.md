@@ -1,6 +1,6 @@
 # SmolXP
 
-## Work on this has been paused indefenitely, and I don't think I'll return to it at all.
+## Work on this has been paused indefinitely, and I don't think I'll return to it at all.
 **I don't want to work on this anymore, I seriously don't.** This project was just the result of me messing around with nLite for the first time. This project got an amount of attention it should of never deserved. Someone could of easily replicated what this project does within 5 minutes, and I also don't want to be the known as the person who slimmed Windows XP down as far as I could while making it still functional. I cannot believe that out of all of my projects, *this one* was the most popular. I really hate that fact. Every other project I've made has gotten no attention, but this one got all of it.
 
 **If you want to see stuff that I actually put proper time and work into, then please look at my other projects.** This project is just really small modifications in nLite that anyone could do easily, so please stop liking this. It's nothing special or even anything impressive. If you really want to continue this project yourself, fork it. I'm not going to work on this anytime in the future from what I can see.
